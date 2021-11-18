@@ -5,6 +5,7 @@ import os
 file_path = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(f"{file_path}/../src")
 from feno4D_visualizer import visualizer
+from ImgAnalyze import ImgAnalyze
 import threading
 from tkinter import Button, Entry, Frame, Label, StringVar
 from tkinter import filedialog as FileDialog
@@ -58,23 +59,21 @@ class Home(Frame):
             self.folderPath_2 = StringVar()
             self.folderPath_2.set(data["geometric_calibration"])
             self.folderPath_3 = StringVar()
-            self.folderPath_3.set(data["data_folder"])
+            self.folderPath_3.set(data["image_regis_folder"])
             self.folderPath_4 = StringVar()
-            self.folderPath_4.set(str(data["y_limit"][0]))
+            self.folderPath_4.set(data["data_folder"])
             self.folderPath_5 = StringVar()
-            self.folderPath_5.set(str(data["y_limit"][1]))
+            self.folderPath_5.set(str(data["y_limit"][0]))
             self.folderPath_6 = StringVar()
-            self.folderPath_6.set(str(data["z_limit"][0]))
+            self.folderPath_6.set(str(data["y_limit"][1]))
             self.folderPath_7 = StringVar()
-            self.folderPath_7.set(str(data["z_limit"][1]))
+            self.folderPath_7.set(str(data["z_limit"][0]))
             self.folderPath_8 = StringVar()
-            self.folderPath_8.set(str(data["divisor"]))
+            self.folderPath_8.set(str(data["z_limit"][1]))
             self.folderPath_9 = StringVar()
-            self.folderPath_9.set(str(data["step_angle"]))
+            self.folderPath_9.set(str(data["divisor"]))
             self.folderPath_10 = StringVar()
-            self.folderPath_10.set("")
-            self.folderPath_11 = StringVar()
-            self.folderPath_11.set("")
+            self.folderPath_10.set(str(data["step_angle"]))
 
         else:
             self.f = open(self.cache_file, "w+")
@@ -99,11 +98,10 @@ class Home(Frame):
             self.folderPath_9.set("")
             self.folderPath_10 = StringVar()
             self.folderPath_10.set("")
-            self.folderPath_11 = StringVar()
-            self.folderPath_11.set("")
             data_cache = {
                 "data_folder": "",
                 "geometric_calibration": "",
+                "image_regis_folder": "",
                 "4D_calibration": "",
                 "y_limit": ["", ""],
                 "z_limit": ["", ""],
@@ -166,7 +164,7 @@ class Home(Frame):
         banner_path = Frame(self, height=40, bg=bg_color)
         banner_path.pack(fill='x')
         head_message = StringVar()
-        head_message.set("PCD and Images Folder")
+        head_message.set("Multispectral images registration calibration Folder")
         head_text = Label(
             banner_path, textvariable=head_message, fg=FG, font=FONT_H)
         head_text.pack()
@@ -189,6 +187,29 @@ class Home(Frame):
         banner_path = Frame(self, height=40, bg=bg_color)
         banner_path.pack(fill='x')
         head_message = StringVar()
+        head_message.set("PCD and Images Folder")
+        head_text = Label(
+            banner_path, textvariable=head_message, fg=FG, font=FONT_H)
+        head_text.pack()
+        banner_entry = Frame(self, height=40, bg=bg_color)
+        banner_entry.pack()
+        search_text = StringVar()
+        search_text.set(SEARCH_BUTTON)
+        search_text_button = Button(
+            banner_entry, textvariable=search_text, command=self.getFolderPath_4)
+        search_text_button.grid(row=0, column=0, sticky="w", padx=5, pady=5)
+        entry = Entry(banner_entry, textvariable=self.folderPath_4)
+        entry.grid(row=0, column=1, padx=5, pady=5)
+        entry.config(justify="center", state="disabled")
+        # CALIB 4
+
+        space_blank_banner = Frame(self, height=20, bg=bg_color)
+        space_blank_banner.pack(fill='x')
+
+        # CALIB 5
+        banner_path = Frame(self, height=40, bg=bg_color)
+        banner_path.pack(fill='x')
+        head_message = StringVar()
         head_message.set("Y limit")
         head_text = Label(
             banner_path, textvariable=head_message, fg=FG, font=FONT_H)
@@ -199,21 +220,21 @@ class Home(Frame):
         label = Label(banner_entry, text="Min")
         label.grid(row=0, column=0)
         entry_min = Entry(banner_entry, width=8,
-                          textvariable=self.folderPath_4)
+                          textvariable=self.folderPath_5)
         entry_min.grid(row=0, column=1)
 
         label = Label(banner_entry, text="Max")
         label.grid(row=0, column=2)
         entry_max = Entry(banner_entry, width=8,
-                          textvariable=self.folderPath_5)
+                          textvariable=self.folderPath_6)
         entry_max.grid(row=0, column=3)
 
-        # CALIB 4
+        # CALIB 5
 
         space_blank_banner = Frame(self, height=20, bg=bg_color)
         space_blank_banner.pack(fill='x')
 
-        # CALIB 5
+        # CALIB 6
         banner_path = Frame(self, height=40, bg=bg_color)
         banner_path.pack(fill='x')
         head_message = StringVar()
@@ -227,20 +248,20 @@ class Home(Frame):
         label = Label(banner_entry, text="Min")
         label.grid(row=0, column=0)
         entry_min = Entry(banner_entry, width=8,
-                          textvariable=self.folderPath_6)
+                          textvariable=self.folderPath_7)
         entry_min.grid(row=0, column=1)
 
         label = Label(banner_entry, text="Max")
         label.grid(row=0, column=2)
         entry_max = Entry(banner_entry, width=8,
-                          textvariable=self.folderPath_7)
+                          textvariable=self.folderPath_8)
         entry_max.grid(row=0, column=3)
-        # CALIB 5
+        # CALIB 6
 
         space_blank_banner = Frame(self, height=20, bg=bg_color)
         space_blank_banner.pack(fill='x')
 
-        # CALIB 6
+        # CALIB 7
         banner_path = Frame(self, height=40, bg=bg_color)
         banner_path.pack(fill='x')
         head_message = StringVar()
@@ -254,15 +275,15 @@ class Home(Frame):
         label = Label(banner_entry, text="Divisor")
         label.grid(row=0, column=0)
         entry_min = Entry(banner_entry, width=8,
-                          textvariable=self.folderPath_8)
+                          textvariable=self.folderPath_9)
         entry_min.grid(row=0, column=1)
 
         label = Label(banner_entry, text="Step angle")
         label.grid(row=0, column=2)
         entry_max = Entry(banner_entry, width=8,
-                          textvariable=self.folderPath_9)
+                          textvariable=self.folderPath_10)
         entry_max.grid(row=0, column=3)
-        # CALIB 6
+        # CALIB 7
 
         space_blank_banner = Frame(self, height=40, bg=bg_color)
         space_blank_banner.pack(fill='x')
@@ -289,35 +310,39 @@ class Home(Frame):
                        self.folderPath_6.get(),
                        self.folderPath_7.get(),
                        self.folderPath_8.get(),
-                       self.folderPath_9.get()]
+                       self.folderPath_9.get(),
+                       self.folderPath_10.get()]
         full_data = "" not in form_fields
         
         if full_data:
-            f_path = self.folderPath_3.get()
+            
             f_key_calib = self.folderPath.get()
             f_geometric_calib = self.folderPath_2.get()
+            f_image_regis = self.folderPath_3.get()
+            f_path = self.folderPath_4.get()
+            
             try:
-                y_limit = (float(self.folderPath_4.get()),
-                           float(self.folderPath_5.get()))
+                y_limit = (float(self.folderPath_5.get()),
+                           float(self.folderPath_6.get()))
             except ValueError:
                 MessageBox.showerror(
                     "Error", "Y limit values must be float type")
                 return None
             try:
-                z_limit = (float(self.folderPath_6.get()),
-                           float(self.folderPath_7.get()))
+                z_limit = (float(self.folderPath_7.get()),
+                           float(self.folderPath_8.get()))
             except ValueError:
                 MessageBox.showerror(
                     "Error", "Z limit values must be float type")
                 return None
             try:
-                divisor = int(self.folderPath_8.get())
+                divisor = int(self.folderPath_9.get())
             except ValueError:
                 MessageBox.showerror(
                     "Error", "Divisor value must be integer type")
                 return None
             try:
-                data_step_angle = int(self.folderPath_9.get())
+                data_step_angle = int(self.folderPath_10.get())
             except ValueError:
                 MessageBox.showerror(
                     "Error", "Step angle value must be integer type")
@@ -328,11 +353,22 @@ class Home(Frame):
                 "data_folder": f_path,
                 "geometric_calibration": f_geometric_calib,
                 "4D_calibration": f_key_calib,
+                "image_regis_folder": f_image_regis,
                 "y_limit": y_limit,
                 "z_limit": z_limit,
                 "divisor": divisor,
                 "step_angle": data_step_angle
             }
+            pront_message = f"Generating VI images for folder\n\n{f_path}\n\nplease wait ..."
+            print(pront_message)
+            MessageBox.showinfo("Instructions", pront_message)
+            try:
+                ImgAnalyze.generate_VI_images(f_image_regis, f_path)
+            except Exception as e:
+                print(e)
+                MessageBox.showerror("Error", "Can not generate the VI images, please veryfie the \n\n\"Multispectral images registration calibration\"\n\n and \n\n\"PCD and Images\"\n\n folders paths")
+                return -1
+
             self.f = open(self.cache_file, "r+")
             self.f.seek(0)
             json.dump(data_cache, self.f)
@@ -343,6 +379,7 @@ class Home(Frame):
                  y_limit, z_limit, divisor, data_step_angle)
             if status is not None:
                 MessageBox.showerror("Error", status[1])
+                return -1
         else:
             MessageBox.showerror("Error", "All the fields are required")
 
@@ -357,3 +394,7 @@ class Home(Frame):
     def getFolderPath_3(self):
         folder_selected = FileDialog.askdirectory()
         self.folderPath_3.set(folder_selected)
+    
+    def getFolderPath_4(self):
+        folder_selected = FileDialog.askdirectory()
+        self.folderPath_4.set(folder_selected)
