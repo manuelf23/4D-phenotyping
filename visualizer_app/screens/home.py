@@ -5,6 +5,7 @@ import os
 file_path = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(f"{file_path}/../src")
 from feno4D_visualizer import visualizer
+from ImgAnalyze import ImgAnalyze
 import threading
 from tkinter import Button, Entry, Frame, Label, StringVar
 from tkinter import filedialog as FileDialog
@@ -358,6 +359,16 @@ class Home(Frame):
                 "divisor": divisor,
                 "step_angle": data_step_angle
             }
+            pront_message = f"Generating VI images for folder\n\n{f_path}\n\nplease wait ..."
+            print(pront_message)
+            MessageBox.showinfo("Instructions", pront_message)
+            try:
+                ImgAnalyze.generate_VI_images(f_image_regis, f_path)
+            except Exception as e:
+                print(e)
+                MessageBox.showerror("Error", "Can not generate the VI images, please veryfie the \n\n\"Multispectral images registration calibration\"\n\n and \n\n\"PCD and Images\"\n\n folders paths")
+                return -1
+
             self.f = open(self.cache_file, "r+")
             self.f.seek(0)
             json.dump(data_cache, self.f)
@@ -368,6 +379,7 @@ class Home(Frame):
                  y_limit, z_limit, divisor, data_step_angle)
             if status is not None:
                 MessageBox.showerror("Error", status[1])
+                return -1
         else:
             MessageBox.showerror("Error", "All the fields are required")
 
