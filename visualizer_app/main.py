@@ -9,8 +9,8 @@ class MainApp(Tk):
         self.title('Pheno4D - Platform')
         logo = Image("photo", file="img/logo.gif")
         self.iconphoto(True, logo)
-        width = 400
-        height = 600
+        width = 410
+        height = 650
         screen_width = self.winfo_screenwidth()
         screen_height = self.winfo_screenheight()
         x = (screen_width/2) - (width/2)
