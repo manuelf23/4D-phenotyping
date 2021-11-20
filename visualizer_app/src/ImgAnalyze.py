@@ -219,7 +219,7 @@ class ImgAnalyze():
         for fname in files:
             my_img_analyze = ImgAnalyze(fname, f"{calib_path}/")
             my_img_analyze.get_rgb(savef=True)
-            my_img_analyze.get_sr(savef=True)
+            # my_img_analyze.get_sr(savef=True) # this idex some times has divisoin by zero
             my_img_analyze.get_dvi(savef=True)
             my_img_analyze.get_ndvi(savef=True)
             my_img_analyze.get_gndvi(savef=True)
