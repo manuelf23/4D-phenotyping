@@ -8,6 +8,7 @@ import glob
 from copy import deepcopy
 import json
 import math
+import os
 
 def read_pcd(dir, y_limit, z_limit):
     pcd = pd.read_csv(dir)
@@ -115,11 +116,22 @@ def plane_calibration(folder_path, save_folder_path, y_limit, z_limit):
         "R": R_save.tolist()
     }
 
-    json_object = json.dumps(dictionary, indent = 4)
+    
   
     # Writing to sample.json
-    with open(f"{save_folder_path}/geometric_calibration.json", "w") as outfile:
-        outfile.write(json_object)
+    save_path_file = f"{save_folder_path}/geometric_calibration.json"
+    if os.path.isfile(save_path_file):
+        with open(save_path_file, "r+") as outfile:
+            js_data = json.load(outfile) 
+            js_data["R"] = dictionary["R"]
+            json_object = json.dumps(js_data, indent = 4)
+            outfile.seek(0)
+            outfile.write(json_object)
+            outfile.truncate()
+    else:
+        json_object = json.dumps(dictionary, indent = 4)
+        with open(save_path_file, "w") as outfile:
+            outfile.write(json_object)
 
 if __name__ == "__main__":
     y_limit = (0.7, 1.2)
