@@ -44,9 +44,7 @@ def sort_array(points):
     return [p1, p2, p3, p4]
 
 
-
-
-def sensory_fision_caloibration(f_path, s_f_path, calib_path_rgb, auto=False):
+def sensory_fusion_calibration(f_path, s_f_path, calib_path_rgb, show_graphs, auto=False):
     global key_p, f_num
 
     def draw(event, x, y, flags, params):
@@ -81,25 +79,17 @@ def sensory_fision_caloibration(f_path, s_f_path, calib_path_rgb, auto=False):
                     break
             cv2.destroyAllWindows()
         else:
-            points_2d = get_board_corners(img_path[0])
+            points_2d = get_board_corners(img_path[0], show_graphs)
             points_2d = sort_array(points_2d)
             for point in points_2d:
                 key_p['frame'].append(f_num)
                 key_p['HC'].append(1)
                 key_p['u'].append(point[0])
                 key_p['v'].append(point[1])
-        xg, yg, zg = get_3d_points_plane(ffolder[:-1] + '.csv')
+        xg, yg, zg = get_3d_points_plane(ffolder[:-1] + '.csv', plot=show_graphs)
         key_p['x'] += xg
         key_p['y'] += yg
         key_p['z'] += zg
         
     pd.DataFrame(key_p).to_csv(
         f'{s_f_path}/sensory_fusion_calibration.csv', index=False)
-
-if __name__ == "__main__";
-    folder_path = "/Users/manuelgarciarincon/Desktop/nueva_calibracion/fusion_cured"
-    folder_path = "/Users/manuelgarciarincon/Desktop/calibracion_6_mayo/fusion_cured"
-    folder_path = "/Users/manuelgarciarincon/4D-phenotyping/data/guaiacum_officinale/calibration_data/calibration_data/sensory_fusion_automatic"
-    calib = "/Users/manuelgarciarincon/4D-phenotyping/data/guaiacum_officinale/calibration_data/calibrations_results/multispectral_image_registration"
-
-    sensory_fision_caloibration(folder_path, folder_path, calib, auto=True)

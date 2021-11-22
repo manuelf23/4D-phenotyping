@@ -19,16 +19,7 @@ def filter_and_promediate_pcd(pcd, nb_neighbors, std_ratio):
     cl, ind = o3d_pcd.remove_statistical_outlier(
         nb_neighbors=nb_neighbors, std_ratio=std_ratio)
     pcd2 = pcd.loc[ind]
-    # print(pcd2)
-    # xyz = np.asarray(cl.points)
-    # pcd_dict = {'X': xyz[:, 0], 'Y': xyz[:, 1], 'Z': xyz[:, 2]}
-    # pcd = pd.DataFrame(pcd_dict)
-    # xyz = np.asarray(cl.points)
-    # # print(xyz.shape)
-    # pcd_dict = {'X': xyz[:, 0], 'Y': xyz[:, 1], 'Z': xyz[:, 2]}
-    # pcd = pd.DataFrame(pcd_dict)
     return cl
-    # return pcd2
 
 
 def rotate_pcd(pcd, rot_grade, x_center, y_center):

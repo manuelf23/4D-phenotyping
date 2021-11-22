@@ -154,8 +154,9 @@ def get_3d_points_plane(fname, plot = True):
     kp_Y.append(p4_y[0,0])
     
     o3d_pcd.paint_uniform_color([0.1, 0.706, 0.1])
-    o3d.visualization.draw_geometries(
-        [o3d_pcd])
+    if plot:
+        o3d.visualization.draw_geometries(
+            [o3d_pcd])
     
     xyz_kp_points = np.zeros((len(kp_X), 3))
     xyz_kp_points[:, 0] = kp_X[:]
@@ -166,9 +167,10 @@ def get_3d_points_plane(fname, plot = True):
     o3d_kp.points = o3d.utility.Vector3dVector(xyz_kp_points)
     o3d_kp.paint_uniform_color([1, 0, 0])
 
-    o3d.visualization.draw_geometries(
-        [o3d_kp])
+    
     if plot:
+        o3d.visualization.draw_geometries(
+        [o3d_kp])
         o3d.visualization.draw_geometries(
             [o3d_kp, o3d_pcd], window_name=fname.split('/')[-1])
 

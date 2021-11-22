@@ -7,10 +7,11 @@ import os
 width = 640
 height = 480
 
-def image_registration(image_folder_path, save_folde_path):
+def image_registration(image_folder_path, base_save_folde_path):
     dim = (width, height)
     plot_flag = False
-    base_images_folder_path = image_folder_path + '/'
+    save_folde_path = f"{base_save_folde_path}/multispectral_image_registration"
+    base_images_folder_path = image_folder_path + "/"
     base_save_folder_images = f"{save_folde_path}/result_images"
     os.system(f"mkdir -p {base_save_folder_images}")
     
@@ -89,9 +90,6 @@ def image_registration(image_folder_path, save_folde_path):
     m_band = 'NIR'
     points2match = k_points[m_band]
     for band, points in k_points.items():
-        # print(points2match.shape, points.shape)
-        # if band == m_band:
-        #     continue
         homography, mask = cv.findHomography(points, points2match, cv.RANSAC)
         pickle_out = open(f"{save_folde_path}/{band}_CALIB.pickle", "wb")
         pickle.dump(homography, pickle_out)

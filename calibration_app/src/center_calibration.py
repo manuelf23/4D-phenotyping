@@ -3,8 +3,9 @@ from matplotlib import pyplot as plt
 import numpy as np
 import open3d as o3d
 from matplotlib.widgets import Cursor
-
+import json
 import matplotlib.cm
+import os
 
 
 def filter_and_promediate_pcd(pcd, nb_neighbors=5, std_ratio=0.9):
@@ -27,7 +28,7 @@ def filter_and_promediate_pcd(pcd, nb_neighbors=5, std_ratio=0.9):
     new_pcd['Z'] = cl_points[:, 2]
     return new_pcd
 
-def rotacion_xy(pd_X, pd_y, pd_Z):
+def rotacion_xy(pd_X, pd_y, pd_Z, R):
     xyz2 = np.zeros((len(pd_X), 3))
     xyz2[:, 0] = pd_X
     xyz2[:, 1] = pd_y
@@ -48,7 +49,7 @@ def rotacion_xy(pd_X, pd_y, pd_Z):
     return a_rotados, b_rotados, c_rotados
 
 
-def find_center(center_pcd_path):
+def find_center(center_pcd_path, save_folder_path, show_graph, y_limit=(0.7, 1.2), z_limit=(-0.55, 1.8)):
     pcd_frame = pd.read_csv(center_pcd_path)
     pcd_frame = pcd_frame.drop(
         columns=['Points_m_XYZ:0',
@@ -61,15 +62,21 @@ def find_center(center_pcd_path):
     pcd_frame = pcd_frame.rename(
         columns={'X': 'Z', 'Z': 'X'})
 
+    calib_file = f"{save_folder_path}/geometric_calibration.json"
+    with open(calib_file, "r+") as outfile:
+        js_data = json.load(outfile)
+        R = js_data["R"]
+
     pcd_frame['X'], pcd_frame['Y'], pcd_frame['Z'] = rotacion_xy(
-        pcd_frame['X'], pcd_frame['Y'], pcd_frame['Z'])
+        pcd_frame['X'], pcd_frame['Y'], pcd_frame['Z'], R)
 
 
     ################# FILTER PCD POINTS BY DISTANCE #################
-    pcd_frame = pcd_frame[(pcd_frame.Y >= 0.7)]  # 5
-    pcd_frame = pcd_frame[(pcd_frame.Y <= 1.3)]  # 5
-    pcd_frame = pcd_frame[(pcd_frame.Z <= 2)]  # 5'
-    pcd_frame = pcd_frame[(pcd_frame.Z >= -0.53)]  # 5
+    pcd_frame = pcd_frame[(pcd_frame.Y >= y_limit[0])]  # 5
+    pcd_frame = pcd_frame[(pcd_frame.Y <= y_limit[1])]  # 5
+    pcd_frame = pcd_frame[(pcd_frame.Z >= z_limit[0])]  # 5
+    pcd_frame = pcd_frame[(pcd_frame.Z <= z_limit[1])]  # 5'
+    
     # pcd_frame = pcd_frame[(pcd_frame.Z >= -0.173)]  # 5'
     ################# FILTER PCD POINTS BY DISTANCE #################
     laser_filter=pcd_frame['laser_id'][pcd_frame['Z'].idxmax()]
@@ -83,6 +90,25 @@ def find_center(center_pcd_path):
 
     print('centro X:', target_pcd['X'].mean())
     print('centro Y:', target_pcd['Y'].mean())
+    dictionary = {
+        "x_center": target_pcd['X'].mean(),
+        "y_center": target_pcd['Y'].mean()
+        }
+    # Writing to sample.json
+    save_path_file = f"{save_folder_path}/geometric_calibration.json"
+    if os.path.isfile(save_path_file):
+        with open(save_path_file, "r+") as outfile:
+            js_data = json.load(outfile) 
+            js_data["x_center"] = dictionary["x_center"]
+            js_data["y_center"] = dictionary["y_center"]
+            json_object = json.dumps(js_data, indent = 4)
+            outfile.seek(0)
+            outfile.write(json_object)
+            outfile.truncate()
+    else:
+        json_object = json.dumps(dictionary, indent = 4)
+        with open(save_path_file, "w") as outfile:
+            outfile.write(json_object)
     # print(target_pcd)
 
     ax = plt.axes(projection='3d')
@@ -97,4 +123,5 @@ def find_center(center_pcd_path):
     ax.set_zlabel('z [m]')
 
     cursor = Cursor(ax, useblit=True, color='red', linewidth=2)
-    plt.show()
+    if show_graph:
+        plt.show()

@@ -51,8 +51,8 @@ def filter_and_promediate_pcd(pcd, nb_neighbors, std_ratio):
     return cl
 
 
-def plane_calibration(folder_path, save_folder_path, y_limit, z_limit):
-    
+def plane_calibration(folder_path, save_folder_path, show_graph, y_limit=(0.7, 1.2), z_limit=(-0.5, 1.8)):
+    folder_path += "/"
     files = glob.glob(folder_path + '*.csv')
     for i, fname in enumerate(files):
         if i:
@@ -110,7 +110,8 @@ def plane_calibration(folder_path, save_folder_path, y_limit, z_limit):
     R_save = np.delete(R_save, -1, axis=0)
     print("R:", R_save)
     pcds.append(o3d.geometry.TriangleMesh.create_coordinate_frame(size=0.2))
-    o3d.visualization.draw_geometries(pcds)
+    if show_graph:
+        o3d.visualization.draw_geometries(pcds)
 
     dictionary = {
         "R": R_save.tolist()
@@ -132,10 +133,3 @@ def plane_calibration(folder_path, save_folder_path, y_limit, z_limit):
         json_object = json.dumps(dictionary, indent = 4)
         with open(save_path_file, "w") as outfile:
             outfile.write(json_object)
-
-if __name__ == "__main__":
-    y_limit = (0.7, 1.2)
-    z_limit = (-0.5, 1.8)
-    folder_path = "/Users/manuelgarciarincon/Downloads/nueva_calibracion/calibracion_plano/"
-    save_folder_path = "/Users/manuelgarciarincon/Downloads/nueva_calibracion"
-    plane_calibration(folder_path, save_folder_path, y_limit, z_limit)

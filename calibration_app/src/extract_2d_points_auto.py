@@ -1,6 +1,7 @@
 import numpy as np 
 import cv2 as cv
-
+import os
+actual_file_path = os.path.dirname(os.path.abspath(__file__))
 def vector_mgnitud(va, vb):
     r = ((vb[0]-va[0])**2+(vb[1]-va[1])**2)**0.5
     return r
@@ -20,7 +21,7 @@ def find_triangle_points(gray):
     
     
     imagem = cv.bitwise_not(gray)
-    cc = cv.imread("mask_gray.jpg", 0)
+    cc = cv.imread(f"{actual_file_path}/mask_gray.jpg", 0)
     t_image = (gray*cc) + imagem
     _, threshold = cv.threshold(t_image, 127, 255, cv.THRESH_BINARY)
     contours, _ = cv.findContours(
@@ -104,7 +105,7 @@ def find_line(x1, y1, x2, y2):
 
 
 
-def get_board_corners(path):
+def get_board_corners(path, show_graph):
     frame = cv.imread(path)
 
     lower_color_bounds = (0, 0, 0)
@@ -147,16 +148,14 @@ def get_board_corners(path):
     p4 = [int(i) for i in p4]
     k_points = [p1,p2, p3, p4]
     k_points.sort()
-    frame = cv.circle(frame, p1, radius=5, color=(0, 255, 255), thickness=5)
-    frame = cv.circle(frame, p2, radius=5, color=(0, 255, 255), thickness=5)
-    frame = cv.circle(frame, p3, radius=5, color=(0, 255, 255), thickness=5)
-    frame = cv.circle(frame, p4, radius=5, color=(0, 255, 255), thickness=5)
-    cv.imshow("ss", frame)
-    if cv.waitKey(0) & 0xff == 27:
-	    cv.destroyAllWindows()
-
+    if show_graph:
+        frame = cv.circle(frame, p1, radius=5, color=(0, 255, 255), thickness=5)
+        frame = cv.circle(frame, p2, radius=5, color=(0, 255, 255), thickness=5)
+        frame = cv.circle(frame, p3, radius=5, color=(0, 255, 255), thickness=5)
+        frame = cv.circle(frame, p4, radius=5, color=(0, 255, 255), thickness=5)
+        while(True):
+            cv.imshow(path.split("/")[-1], frame)
+            if cv.waitKey(20) & 0xFF == ord('q'):
+                break
+        cv.destroyAllWindows()
     return k_points
-
-if __name__ == "__main__":
-    path = "RGB_22.JPG"
-    print(get_board_corners(path))
