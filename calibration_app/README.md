@@ -34,6 +34,7 @@ The .csv file has the following columns:
 ### Multispectral image registration
 This is a folder that contains the images for the multispectral image registration calibration.
 The structure of the folder is as follows:
+```json
 📦 multispectral_image_registration
  ┣ 📂 0710
  ┃ ┣ 📜 IMG_160101_001209_0000_GRE.TIF
@@ -47,11 +48,13 @@ The structure of the folder is as follows:
  ┃ ┣ 📜 IMG_160101_001219_0000_RED.TIF
  ┃ ┣ 📜 IMG_160101_001219_0000_REG.TIF
  ┃ ┣ 📜 IMG_160101_001219_0000_RGB.JPG
+ ```
 
 ### 4D Geometric calibration (sensory fusion)
 This is a folder that contains the multispectral images and PDC data for the sensory fusion calibration.
 The structure of the folder is as follows:
-A folder with the multispectral images and .csv file with the PCD data at the same level of the images folder.
+A folder with the multispectral images and .csv file with the PCD data at the same level of the image's folder.
+```json
 📦 sensory_fusion
  ┣ 📂 1
  ┃ ┣ 📜 IMG_160101_050739_0000_GRE.TIF
@@ -74,7 +77,9 @@ A folder with the multispectral images and .csv file with the PCD data at the sa
  ┣ 📜 1.csv
  ┣ 📜 2.csv
  ┣ 📜 3.csv
+ ```
  The .csv file has the following columns:
  | X | Y | Z | azimuth | laser_id |
 |---|---|---|---------|----------|
-WARNING: For the auto extraction of 2D points it is necesary that the RGB images have a blue or green background.
+
+WARNING: For the auto extraction of 2D points it is necessary that the RGB images have a blue or green background.

@@ -68,7 +68,7 @@ The file names must be as follows:
 ### PCD and Images Folder
 Since the platform senses the plant every X rotation degree of the turntable, there will be a folder that has the name of the degree where the plant was sensed and within this folder there will be the multi-spectral images corresponding to the sensing.
 At the same level as the folders that contain the images, it will be found a CSV file that has the name of the degree where the plant was sensed that contains the information of the point cloud of the plant at that angle in which it was sensed.
-
+```json
 📦 4D_data (PCD and Images Folder)
  ┣ 📂 0
  ┃ ┣ 📜 IMG_160101_033302_0000_GRE.TIF
@@ -86,7 +86,7 @@ At the same level as the folders that contain the images, it will be found a CSV
  ┣ 📜 0.csv
  ┣ 📜 12.csv
  ┣ ...
- 
+ ```
 The CSV file that contains the point cloud information has the following columns:
 | X | Y | Z | azimuth | laser_id |
 |---|---|---|---------|----------|
