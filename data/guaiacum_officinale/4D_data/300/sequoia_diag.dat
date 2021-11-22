@@ -1,0 +1,1436 @@
+---------------------------------------------------- beginning of /proc/kmsg
+====================== ULOGCAT SESSION START  ======================
+K 01-01 00:00:00.000 W KERNEL                                       : 223 log entries dropped
+K 01-01 00:00:00.541 D KERNEL                                       : p7:	install CAM_4_DATA00 I/O pin function
+K 01-01 00:00:00.541 D KERNEL                                       : p7:	install CAM_4_DATA01 I/O pin function
+K 01-01 00:00:00.541 D KERNEL                                       : p7:	install CAM_4_DATA02 I/O pin function
+K 01-01 00:00:00.541 D KERNEL                                       : p7:	install CAM_4_DATA03 I/O pin function
+K 01-01 00:00:00.541 D KERNEL                                       : p7:	install CAM_4_DATA04 I/O pin function
+K 01-01 00:00:00.541 D KERNEL                                       : p7:	install CAM_4_DATA05 I/O pin function
+K 01-01 00:00:00.541 D KERNEL                                       : p7:	install CAM_4_DATA06 I/O pin function
+K 01-01 00:00:00.541 D KERNEL                                       : p7:	install CAM_4_DATA07 I/O pin function
+K 01-01 00:00:00.541 D KERNEL                                       : p7:	install CAM_4_DATA08 I/O pin function
+K 01-01 00:00:00.541 D KERNEL                                       : p7:	install CAM_4_DATA09 I/O pin function
+K 01-01 00:00:00.560 D KERNEL                                       : p7: registering avicam.5...
+K 01-01 00:00:00.561 D KERNEL                                       : p7: registering avicam.5 I/O pins...
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install CAM_5_CLK I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install CAM_5_HS I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install CAM_5_VS I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install CAM_5_DATA00 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install CAM_5_DATA01 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install CAM_5_DATA02 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install CAM_5_DATA03 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install CAM_5_DATA04 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install CAM_5_DATA05 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install CAM_5_DATA06 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install CAM_5_DATA07 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install CAM_5_DATA08 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install CAM_5_DATA09 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7: registering ci_hdrc.0...
+K 01-01 00:00:00.561 D KERNEL                                       : p7: registering ci_hdrc.0 I/O pins...
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA00 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA00__GPIO_095 I/O pin settings
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA01 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA01__GPIO_096 I/O pin settings
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA02 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA02__GPIO_097 I/O pin settings
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA03 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA03__GPIO_098 I/O pin settings
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA04 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA04__GPIO_099 I/O pin settings
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA05 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA05__GPIO_100 I/O pin settings
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA06 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA06__GPIO_101 I/O pin settings
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA07 I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DATA07__GPIO_102 I/O pin settings
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_NXT I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_NXT__GPIO_103 I/O pin settings
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_STP I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_STP__GPIO_117 I/O pin settings
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DIR I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_DIR__GPIO_104 I/O pin settings
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_CLK I/O pin function
+K 01-01 00:00:00.561 D KERNEL                                       : p7:	install ULPI_0_CLK__GPIO_105 I/O pin settings
+K 01-01 00:00:00.561 D KERNEL                                       : p7: registering ci_hdrc.1...
+K 01-01 00:00:00.562 D KERNEL                                       : p7: registering ci_hdrc.1 I/O pins...
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA00 I/O pin function
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA00__GPIO_106__I2C_2_CLKa I/O pin settings
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA01 I/O pin function
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA01__GPIO_107__I2C_2_DATa I/O pin settings
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA02 I/O pin function
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA02__GPIO_108__I2C_2_CLKb I/O pin settings
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA03 I/O pin function
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA03__GPIO_109__I2C_2_DATb I/O pin settings
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA04 I/O pin function
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA04__GPIO_110__I2C_2_CLKc I/O pin settings
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA05 I/O pin function
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA05__GPIO_111__I2C_2_DATc I/O pin settings
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA06 I/O pin function
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA06__GPIO_112__I2C_2_CLKd I/O pin settings
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA07 I/O pin function
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DATA07__GPIO_113__I2C_2_DATd I/O pin settings
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_NXT I/O pin function
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_NXT__GPIO_114__I2C_2_CLKe I/O pin settings
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_STP I/O pin function
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_STP__GPIO_116__I2C_2_DATe I/O pin settings
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DIR I/O pin function
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_DIR__GPIO_115 I/O pin settings
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_CLK I/O pin function
+K 01-01 00:00:00.562 D KERNEL                                       : p7:	install ULPI_1_CLK__GPIO_118 I/O pin settings
+K 01-01 00:00:00.562 D KERNEL                                       : p7: registering hx280-venc.0...
+K 01-01 00:00:00.562 D KERNEL                                       : p7: registering avi_m2m.0...
+K 01-01 00:00:00.562 D KERNEL                                       : p7: registering avi_m2m.1...
+K 01-01 00:00:00.563 I KERNEL                                       : hw_info : i2c-1 device 0x68 : mpu6050 (IMU)
+K 01-01 00:00:00.564 I KERNEL                                       : Export GPIO-76 as IMU irq
+K 01-01 00:00:00.566 D KERNEL                                       : p7: registering reg-fixed-voltage.0...
+K 01-01 00:00:00.566 D KERNEL                                       : p7: registering switch-voltage.4...
+K 01-01 00:00:00.566 D KERNEL                                       : p7: registering acs3-sdhci.1...
+K 01-01 00:00:00.567 D KERNEL                                       : p7: registering acs3-sdhci.1 I/O pins...
+K 01-01 00:00:00.567 D KERNEL                                       : p7:	install SD_1_CLK I/O pin function
+K 01-01 00:00:00.567 D KERNEL                                       : p7:	install SD_1_CLK__GPIO_015__UART_5_TX I/O pin settings
+K 01-01 00:00:00.567 D KERNEL                                       : p7:	install SD_1_CMD I/O pin function
+K 01-01 00:00:00.567 D KERNEL                                       : p7:	install SD_1_CMD__GPIO_016__UART_5_RX I/O pin settings
+K 01-01 00:00:00.567 D KERNEL                                       : p7:	install SD_1_DAT00 I/O pin function
+K 01-01 00:00:00.567 D KERNEL                                       : p7:	install SD_1_DAT00__GPIO_017__UART_6_TX I/O pin settings
+K 01-01 00:00:00.567 D KERNEL                                       : p7:	install SD_1_DAT01 I/O pin function
+K 01-01 00:00:00.567 D KERNEL                                       : p7:	install SD_1_DAT01__GPIO_019__UART_6_RX I/O pin settings
+K 01-01 00:00:00.567 D KERNEL                                       : p7:	install SD_1_DAT02 I/O pin function
+K 01-01 00:00:00.567 D KERNEL                                       : p7:	install SD_1_DAT02__GPIO_018__UART_7_TX I/O pin settings
+K 01-01 00:00:00.567 D KERNEL                                       : p7:	install SD_1_DAT03 I/O pin function
+K 01-01 00:00:00.567 D KERNEL                                       : p7:	install SD_1_DAT03__GPIO_020__UART_7_RX I/O pin settings
+K 01-01 00:00:00.567 I KERNEL                                       : hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
+K 01-01 00:00:00.567 I KERNEL                                       : hw-breakpoint: maximum watchpoint size is 4 bytes.
+K 01-01 00:00:00.597 I KERNEL                                       : bio: create slab <bio-0> at 0
+K 01-01 00:00:00.598 W KERNEL                                       : i2c-core: driver [pca953x] using legacy suspend method
+K 01-01 00:00:00.598 W KERNEL                                       : i2c-core: driver [pca953x] using legacy resume method
+K 01-01 00:00:00.599 I KERNEL                                       : vwl18xx: 1800 mV 
+K 01-01 00:00:00.601 N KERNEL                                       : SCSI subsystem initialized
+K 01-01 00:00:00.602 I KERNEL                                       : usbcore: registered new interface driver usbfs
+K 01-01 00:00:00.602 I KERNEL                                       : usbcore: registered new interface driver hub
+K 01-01 00:00:00.602 I KERNEL                                       : usbcore: registered new device driver usb
+K 01-01 00:00:00.603 I KERNEL                                       : Linux media interface: v0.10
+K 01-01 00:00:00.603 I KERNEL                                       : Linux video capture interface: v2.00
+K 01-01 00:00:00.603 I KERNEL                                       : pps_core: LinuxPPS API ver. 1 registered
+K 01-01 00:00:00.603 I KERNEL                                       : pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+K 01-01 00:00:00.603 I KERNEL                                       : PTP clock support registered
+K 01-01 00:00:00.604 I KERNEL                                       : Advanced Linux Sound Architecture Driver Version 1.0.25.
+K 01-01 00:00:00.604 W KERNEL                                       : i2c-core: driver [smsc82514] using legacy suspend method
+K 01-01 00:00:00.604 W KERNEL                                       : i2c-core: driver [smsc82514] using legacy resume method
+K 01-01 00:00:00.604 W KERNEL                                       : i2c-core: driver [lvds] using legacy suspend method
+K 01-01 00:00:00.604 W KERNEL                                       : i2c-core: driver [lvds] using legacy resume method
+K 01-01 00:00:00.605 I KERNEL                                       : sdhci0_bus_vdd: 3300 mV 
+K 01-01 00:00:00.605 I KERNEL                                       : sdhci1_bus_vdd: 3300 mV 
+K 01-01 00:00:00.605 E KERNEL                                       : switch-voltage switch-voltage.4: Failed to set supply vqmmc
+K 01-01 00:00:00.606 E KERNEL                                       : switch-voltage switch-voltage.4: Failed to register regulator: -16
+K 01-01 00:00:00.606 W KERNEL                                       : switch-voltage: probe of switch-voltage.4 failed with error -16
+K 01-01 00:00:00.608 I KERNEL                                       : Switching to clocksource timer2
+K 01-01 00:00:00.796 I KERNEL                                       : NET: Registered protocol family 2
+K 01-01 00:00:00.796 I KERNEL                                       : IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+K 01-01 00:00:00.799 I KERNEL                                       : TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+K 01-01 00:00:00.802 I KERNEL                                       : TCP bind hash table entries: 65536 (order: 9, 2621440 bytes)
+K 01-01 00:00:00.817 I KERNEL                                       : TCP: Hash tables configured (established 131072 bind 65536)
+K 01-01 00:00:00.817 I KERNEL                                       : TCP: reno registered
+K 01-01 00:00:00.817 I KERNEL                                       : UDP hash table entries: 512 (order: 3, 49152 bytes)
+K 01-01 00:00:00.818 I KERNEL                                       : UDP-Lite hash table entries: 512 (order: 3, 49152 bytes)
+K 01-01 00:00:00.819 I KERNEL                                       : NET: Registered protocol family 1
+K 01-01 00:00:00.821 I KERNEL                                       : RPC: Registered named UNIX socket transport module.
+K 01-01 00:00:00.821 I KERNEL                                       : RPC: Registered udp transport module.
+K 01-01 00:00:00.821 I KERNEL                                       : RPC: Registered tcp transport module.
+K 01-01 00:00:00.821 I KERNEL                                       : RPC: Registered tcp NFSv4.1 backchannel transport module.
+K 01-01 00:00:00.831 I KERNEL                                       : squashfs: version 4.0 (2009/01/31) Phillip Lougher
+K 01-01 00:00:00.831 N KERNEL                                       : NFS: Registering the id_resolver key type
+K 01-01 00:00:00.833 I KERNEL                                       : NTFS driver 2.1.30 [Flags: R/O].
+K 01-01 00:00:00.834 I KERNEL                                       : fuse init (API version 7.18)
+K 01-01 00:00:00.834 I KERNEL                                       : msgmni has been set to 1070
+K 01-01 00:00:00.838 I KERNEL                                       : Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+K 01-01 00:00:00.838 I KERNEL                                       : io scheduler noop registered
+K 01-01 00:00:00.838 I KERNEL                                       : io scheduler deadline registered (default)
+K 01-01 00:00:00.838 I KERNEL                                       : start plist test
+K 01-01 00:00:00.842 I KERNEL                                       : end plist test
+K 01-01 00:00:00.844 I KERNEL                                       : dma-pl330 pl330-dma.0: Loaded driver for PL330 DMAC-267056
+K 01-01 00:00:00.844 I KERNEL                                       : dma-pl330 pl330-dma.0: 	DBUFF-64x8bytes Num_Chans-6 Num_Peri-7 Num_Events-6
+K 01-01 00:00:00.858 I KERNEL                                       : loop: module loaded
+K 01-01 00:00:00.863 I KERNEL                                       : tun: Universal TUN/TAP device driver, 1.6
+K 01-01 00:00:00.863 I KERNEL                                       : tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+K 01-01 00:00:00.864 I KERNEL                                       : PPP generic driver version 2.4.2
+K 01-01 00:00:00.864 I KERNEL                                       : PPP BSD Compression module registered
+K 01-01 00:00:00.864 I KERNEL                                       : PPP Deflate Compression module registered
+K 01-01 00:00:00.867 I KERNEL                                       : PPP MPPE Compression module registered
+K 01-01 00:00:00.867 I KERNEL                                       : NET: Registered protocol family 24
+K 01-01 00:00:00.867 I KERNEL                                       : Initializing USB Mass Storage driver...
+K 01-01 00:00:00.867 I KERNEL                                       : usbcore: registered new interface driver usb-storage
+K 01-01 00:00:00.867 I KERNEL                                       : USB Mass Storage support registered.
+K 01-01 00:00:00.868 I KERNEL                                       : usbcore: registered new interface driver libusual
+K 01-01 00:00:00.868 I KERNEL                                       : usbcore: registered new interface driver usbserial
+K 01-01 00:00:00.868 I KERNEL                                       : usbserial: USB Serial Driver core
+K 01-01 00:00:00.868 I KERNEL                                       : usbcore: registered new interface driver ftdi_sio
+K 01-01 00:00:00.869 I KERNEL                                       : USB Serial support registered for FTDI USB Serial Device
+K 01-01 00:00:00.869 I KERNEL                                       : ftdi_sio: v1.6.0:USB FTDI Serial Converters Driver
+K 01-01 00:00:00.872 D KERNEL                                       : ci_hdrc ci_hdrc.0: disabling VbusValid interrupt (0)
+K 01-01 00:00:00.873 D KERNEL                                       : ci_hdrc ci_hdrc.1: disabling VbusValid interrupt (0)
+K 01-01 00:00:00.873 I KERNEL                                       : ci_hdrc ci_hdrc.1: ChipIdea HDRC EHCI
+K 01-01 00:00:00.874 I KERNEL                                       : ci_hdrc ci_hdrc.1: new USB bus registered, assigned bus number 1
+K 01-01 00:00:00.919 I KERNEL                                       : ci_hdrc ci_hdrc.1: USB 2.0 started, EHCI 1.00
+K 01-01 00:00:00.919 I KERNEL                                       : usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+K 01-01 00:00:00.919 I KERNEL                                       : usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+K 01-01 00:00:00.919 I KERNEL                                       : usb usb1: Product: ChipIdea HDRC EHCI
+K 01-01 00:00:00.919 I KERNEL                                       : usb usb1: Manufacturer: Linux 3.4.11-02624-g15e22bef7d8 ehci_hcd
+K 01-01 00:00:00.919 I KERNEL                                       : usb usb1: SerialNumber: ci_hdrc.1
+K 01-01 00:00:00.921 I KERNEL                                       : hub 1-0:1.0: USB hub found
+K 01-01 00:00:00.921 I KERNEL                                       : hub 1-0:1.0: 1 port detected
+K 01-01 00:00:00.923 I KERNEL                                       : file system registered
+K 01-01 00:00:00.927 I KERNEL                                       :  gadget: Mass Storage Function, version: 2009/09/11
+K 01-01 00:00:00.928 I KERNEL                                       :  gadget: Number of LUNs=1
+K 01-01 00:00:00.928 I KERNEL                                       :  lun0: LUN: removable file: (no medium)
+K 01-01 00:00:00.928 W KERNEL                                       : Gadget Android: controller 'ci_pdata' not recognized
+K 01-01 00:00:00.929 I KERNEL                                       :  gadget: android_usb ready
+K 01-01 00:00:00.929 I KERNEL                                       : i2c /dev entries driver
+K 01-01 00:00:00.931 W KERNEL                                       : i2c-core: driver [tw8834] using legacy suspend method
+K 01-01 00:00:00.931 W KERNEL                                       : i2c-core: driver [tw8834] using legacy resume method
+K 01-01 00:00:00.931 W KERNEL                                       : i2c-core: driver [tw9990] using legacy suspend method
+K 01-01 00:00:00.931 W KERNEL                                       : i2c-core: driver [tw9990] using legacy resume method
+K 01-01 00:00:00.933 I KERNEL                                       : device-mapper: uevent: version 1.0.3
+K 01-01 00:00:00.934 I KERNEL                                       : device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+K 01-01 00:00:00.934 I KERNEL                                       : sdhci: Secure Digital Host Controller Interface driver
+K 01-01 00:00:00.934 I KERNEL                                       : sdhci: Copyright(c) Pierre Ossman
+K 01-01 00:00:00.935 D KERNEL                                       : Registered led device: sicilia:green
+K 01-01 00:00:00.935 D KERNEL                                       : Registered led device: sicilia:red
+K 01-01 00:00:00.935 D KERNEL                                       : Registered led device: sicilia:blue
+K 01-01 00:00:00.937 I KERNEL                                       : usbcore: registered new interface driver usbhid
+K 01-01 00:00:00.937 I KERNEL                                       : usbhid: USB HID core driver
+K 01-01 00:00:00.938 I KERNEL                                       : ashmem: initialized
+K 01-01 00:00:00.939 I KERNEL                                       : logger: created 256K log 'log_main'
+K 01-01 00:00:00.939 I KERNEL                                       : logger: created 256K log 'log_events'
+K 01-01 00:00:00.939 I KERNEL                                       : logger: created 256K log 'log_radio'
+K 01-01 00:00:00.940 I KERNEL                                       : logger: created 256K log 'log_system'
+K 01-01 00:00:00.940 I KERNEL                                       : logger: created 64K log 'log_ckcm'
+K 01-01 00:00:00.941 I KERNEL                                       : created 256K log 'ulog_main'
+K 01-01 00:00:00.943 I KERNEL                                       : Serial: Parrot5/5+ UART driver $Revision: 1.19 $
+K 01-01 00:00:00.944 I KERNEL                                       : px-uart.0: ttyPA0 at MMIO 0x2100000 (irq = 91) is a PARROT5
+K 01-01 00:00:01.239 I KERNEL                                       : usb 1-1: new high-speed USB device number 2 using ci_hdrc
+K 01-01 00:00:03.190 I KERNEL                                       : console [ttyPA0] enabled
+K 01-01 00:00:03.194 I KERNEL                                       : avi avi.0: Found AVI revision 3
+K 01-01 00:00:03.205 I KERNEL                                       : avi avi.0: AVI core driver initialized
+K 01-01 00:00:03.212 I KERNEL                                       : AVI DebugFS registered
+K 01-01 00:00:03.222 I KERNEL                                       : Powering on maincam
+K 01-01 00:00:03.279 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 00:00:03.286 I KERNEL                                       : Powering off maincam
+K 01-01 00:00:03.289 I KERNEL                                       : tc358746a 2-000e: Found tc358746a chip
+K 01-01 00:00:03.294 I KERNEL                                       : tc358746a 2-000e: TC358746A MIPI bridge successfully probed
+K 01-01 00:00:03.302 I KERNEL                                       : Powering on maincam
+K 01-01 00:00:03.329 I KERNEL                                       : usb 1-1: New USB device found, idVendor=058f, idProduct=6254
+K 01-01 00:00:03.336 I KERNEL                                       : usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+K 01-01 00:00:03.344 I KERNEL                                       : hub 1-1:1.0: USB hub found
+K 01-01 00:00:03.348 I KERNEL                                       : hub 1-1:1.0: 4 ports detected
+K 01-01 00:00:03.359 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 00:00:03.366 I KERNEL                                       : ov16825 2-0036: Found OV16825 chip
+K 01-01 00:00:03.371 I KERNEL                                       : Powering off maincam
+K 01-01 00:00:03.374 I KERNEL                                       : ov16825 2-0036: OV16825 sensor succesfully probed
+K 01-01 00:00:03.380 I KERNEL                                       : avicam avicam.0: video device successfuly registered as video0
+K 01-01 00:00:03.409 I KERNEL                                       : mt9m021 2-0012: Found mt9m021 chip
+K 01-01 00:00:03.414 I KERNEL                                       : avicam avicam.2: video device successfuly registered as video1
+K 01-01 00:00:03.439 I KERNEL                                       : mt9m021 2-0013: Found mt9m021 chip
+K 01-01 00:00:03.444 I KERNEL                                       : avicam avicam.3: video device successfuly registered as video2
+K 01-01 00:00:03.469 I KERNEL                                       : mt9m021 2-0014: Found mt9m021 chip
+K 01-01 00:00:03.474 I KERNEL                                       : avicam avicam.4: video device successfuly registered as video3
+K 01-01 00:00:03.499 I KERNEL                                       : mt9m021 2-0015: Found mt9m021 chip
+K 01-01 00:00:03.504 I KERNEL                                       : avicam avicam.5: video device successfuly registered as video4
+K 01-01 00:00:03.511 I KERNEL                                       : registering avicam V4L2 subdevice nodes.
+K 01-01 00:00:03.519 I KERNEL                                       : avi_r2r Initialized
+K 01-01 00:00:03.525 I KERNEL                                       : avi avi.0: stats video device successfuly registered as video6
+K 01-01 00:00:03.532 I KERNEL                                       : avi_m2m avi_m2m.0: video device successfuly registered as video5
+K 01-01 00:00:03.542 I KERNEL                                       : avi_m2m avi_m2m.1: video device successfuly registered as video7
+K 01-01 00:00:03.550 I KERNEL                                       : avi_v4l2_dev avi: successfully probed
+K 01-01 00:00:03.555 I KERNEL                                       : hx280-venc hx280-venc.0: found hx280 video encoder (0x48313610).
+K 01-01 00:00:03.563 W KERNEL                                       : Mali: Mali device driver loaded
+K 01-01 00:00:03.569 I KERNEL                                       : mmc0: no vqmmc regulator found
+K 01-01 00:00:03.573 I KERNEL                                       : mmc0: no vmmc regulator found
+K 01-01 00:00:03.578 D KERNEL                                       : Registered led device: mmc0::
+K 01-01 00:00:03.639 I KERNEL                                       : usb 1-1.1: new high-speed USB device number 3 using ci_hdrc
+K 01-01 00:00:03.659 I KERNEL                                       : mmc0: SDHCI controller on acs3-sdhci [acs3-sdhci.0] using ADMA
+K 01-01 00:00:03.667 D KERNEL                                       : Registered led device: mmc1::
+K 01-01 00:00:03.752 I KERNEL                                       : usb 1-1.1: New USB device found, idVendor=058f, idProduct=6366
+K 01-01 00:00:03.759 I KERNEL                                       : usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+K 01-01 00:00:03.766 I KERNEL                                       : usb 1-1.1: Product: Flash Card Reader/Writer
+K 01-01 00:00:03.772 I KERNEL                                       : usb 1-1.1: Manufacturer: Generic
+K 01-01 00:00:03.776 I KERNEL                                       : usb 1-1.1: SerialNumber: 058F63666485
+K 01-01 00:00:03.783 I KERNEL                                       : scsi0 : usb-storage 1-1.1:1.0
+K 01-01 00:00:03.819 I KERNEL                                       : mmc1: SDHCI controller on acs3-sdhci [acs3-sdhci.1] using ADMA
+K 01-01 00:00:03.828 I KERNEL                                       : p7mu-rtc p7mu-rtc: rtc core: registered p7mu-rtc as rtc0
+K 01-01 00:00:03.836 W KERNEL                                       : p7mu-adc p7mu-adc: No ADC channel pdata, disabling SPI
+K 01-01 00:00:03.859 I KERNEL                                       : p7mu-adc p7mu-adc: P7MU ADC - ready
+K 01-01 00:00:03.868 I KERNEL                                       : p7-temperature p7-temperature: temperature sensor and ADC registered.
+K 01-01 00:00:03.875 I KERNEL                                       : usb 1-1.2: new high-speed USB device number 4 using ci_hdrc
+K 01-01 00:00:03.882 I KERNEL                                       : fc7100-temperature fc7100-temperature: fc7100-temperature temperature sensor and ADC registered.
+K 01-01 00:00:03.894 I KERNEL                                       : u32 classifier
+K 01-01 00:00:03.896 I KERNEL                                       :     Actions configured
+K 01-01 00:00:03.900 I KERNEL                                       : Netfilter messages via NETLINK v0.30.
+K 01-01 00:00:03.905 I KERNEL                                       : nf_conntrack version 0.5.0 (8564 buckets, 34256 max)
+K 01-01 00:00:03.913 I KERNEL                                       : ctnetlink v0.93: registering with nfnetlink.
+K 01-01 00:00:03.922 I KERNEL                                       : NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+K 01-01 00:00:03.929 I KERNEL                                       : NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+K 01-01 00:00:03.937 I KERNEL                                       : mmc0: new high speed DDR MMC card at address 0001
+K 01-01 00:00:03.938 I KERNEL                                       : xt_time: kernel timezone is -0000
+K 01-01 00:00:03.940 I KERNEL                                       : ip_tables: (C) 2000-2006 Netfilter Core Team
+K 01-01 00:00:03.940 I KERNEL                                       : arp_tables: (C) 2002 David S. Miller
+K 01-01 00:00:03.941 I KERNEL                                       : TCP: cubic registered
+K 01-01 00:00:03.941 I KERNEL                                       : Initializing XFRM netlink socket
+K 01-01 00:00:03.965 I KERNEL                                       : NET: Registered protocol family 10
+K 01-01 00:00:03.970 I KERNEL                                       : mmcblk0: mmc0:0001 064G70 58.2 GiB 
+K 01-01 00:00:03.975 I KERNEL                                       : mmcblk0boot0: mmc0:0001 064G70 partition 1 4.00 MiB
+K 01-01 00:00:03.977 I KERNEL                                       : Mobile IPv6
+K 01-01 00:00:03.978 I KERNEL                                       : ip6_tables: (C) 2000-2006 Netfilter Core Team
+K 01-01 00:00:03.978 I KERNEL                                       : IPv6 over IPv4 tunneling driver
+K 01-01 00:00:03.980 I KERNEL                                       : NET: Registered protocol family 17
+K 01-01 00:00:03.980 I KERNEL                                       : NET: Registered protocol family 15
+K 01-01 00:00:03.980 I KERNEL                                       : 8021q: 802.1Q VLAN Support v1.8
+K 01-01 00:00:03.980 N KERNEL                                       : Registering the dns_resolver key type
+K 01-01 00:00:04.011 I KERNEL                                       : VFP support v0.3: 
+K 01-01 00:00:04.011 I KERNEL                                       : mmcblk0boot1: mmc0:0001 064G70 partition 2 4.00 MiB
+K 01-01 00:00:04.020 W KERNEL                                       : implementor 41 architecture 3 part 30 variant 9 rev 2
+K 01-01 00:00:04.027 I KERNEL                                       : ThumbEE CPU extension supported.
+K 01-01 00:00:04.032 I KERNEL                                       : usb 1-1.2: New USB device found, idVendor=19cf, idProduct=5100
+K 01-01 00:00:04.039 W KERNEL                                       : i2c-core: driver [siihdmi] using legacy suspend method
+K 01-01 00:00:04.039 I KERNEL                                       : usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+K 01-01 00:00:04.039 I KERNEL                                       : usb 1-1.2: Product: Sunshine
+K 01-01 00:00:04.039 I KERNEL                                       : usb 1-1.2: Manufacturer: Parrot SA
+K 01-01 00:00:04.039 I KERNEL                                       : usb 1-1.2: SerialNumber: PI040379BB7C003051
+K 01-01 00:00:04.066 W KERNEL                                       : i2c-core: driver [siihdmi] using legacy resume method
+K 01-01 00:00:06.500 I KERNEL                                       : p7mu-rtc p7mu-rtc: setting system clock to 1970-01-01 00:00:06 UTC (6)
+K 01-01 00:00:06.502 I KERNEL                                       :  mmcblk0: p1 p2 p3 p4 p5 p6 p7
+K 01-01 00:00:06.510 I KERNEL                                       :  mmcblk0boot1: unknown partition table
+K 01-01 00:00:06.513 I KERNEL                                       :  mmcblk0boot0: unknown partition table
+K 01-01 00:00:06.533 I KERNEL                                       : ALSA device list:
+K 01-01 00:00:06.536 I KERNEL                                       :   No soundcards found.
+K 01-01 00:00:06.553 I KERNEL                                       : EXT4-fs (mmcblk0p4): mounted filesystem with ordered data mode. Opts: (null)
+K 01-01 00:00:06.561 I KERNEL                                       : VFS: Mounted root (ext4 filesystem) readonly on device 179:4.
+K 01-01 00:00:06.568 W KERNEL                                       : mmc1: card claims to support voltages below the defined range. These will be ignored.
+K 01-01 00:00:06.568 I KERNEL                                       : Freeing init memory: 224K
+K 01-01 00:00:06.568 I KERNEL                                       : Write protecting the kernel text section 80008000 - 80826000
+K 01-01 00:00:06.640 W KERNEL                                       : mmc1: queuing unknown CIS tuple 0x91 (3 bytes)
+K 01-01 00:00:06.650 I KERNEL                                       : mmc1: new high speed SDIO card at address 0001
+K 01-01 00:00:06.756 I KERNEL                                       : created 128K log 'ulog_kmsgd'
+K 01-01 00:00:06.817 I KERNEL                                       : EXT4-fs (mmcblk0p6): barriers disabled
+K 01-01 00:00:06.837 I KERNEL                                       : EXT4-fs (mmcblk0p6): mounted filesystem with writeback data mode. Opts: discard,data=writeback,nobarrier
+K 01-01 00:00:06.841 I KERNEL                                       : EXT4-fs (mmcblk0p7): barriers disabled
+K 01-01 00:00:06.844 I KERNEL                                       : EXT4-fs (mmcblk0p7): mounted filesystem with writeback data mode. Opts: discard,data=writeback,nobarrier
+K 01-01 00:00:06.848 I KERNEL                                       : EXT4-fs (mmcblk0p5): mounted filesystem with ordered data mode. Opts: (null)
+K 01-01 00:00:07.197 N KERNEL                                       : scsi 0:0:0:0: Direct-Access     Multiple Card  Reader     1.00 PQ: 0 ANSI: 4
+K 01-01 00:00:07.291 I KERNEL                                       : udev[84]: starting version 164
+K 01-01 00:00:07.620 I KERNEL                                       : Loading modules backported from Linux version R8.5-0-gcb51164
+K 01-01 00:00:07.620 I KERNEL                                       : Backport generated by backports.git R8.4-0-g0d46f43
+K 01-01 00:00:07.830 N KERNEL                                       : sd 0:0:0:0: [sda] 63272960 512-byte logical blocks: (32.3 GB/30.1 GiB)
+K 01-01 00:00:07.830 I KERNEL                                       : EXT4-fs (mmcblk0p4): re-mounted. Opts: (null)
+K 01-01 00:00:07.833 N KERNEL                                       : sd 0:0:0:0: [sda] Write Protect is off
+K 01-01 00:00:07.833 D KERNEL                                       : sd 0:0:0:0: [sda] Mode Sense: 23 00 00 00
+K 01-01 00:00:07.837 N KERNEL                                       : sd 0:0:0:0: [sda] Write cache: disabled, read cache: disabled, doesn't support DPO or FUA
+K 01-01 00:00:07.857 I KERNEL                                       :  sda: sda1
+K 01-01 00:00:07.874 N KERNEL                                       : sd 0:0:0:0: [sda] Attached SCSI removable disk
+K 01-01 00:00:07.968 W KERNEL                                       : tsl2591: module is from the staging directory, the quality is unknown, you have been warned.
+K 01-01 00:00:08.154 I KERNEL                                       : cfg80211: Calling CRDA to update world regulatory domain
+K 01-01 00:00:08.607 I KERNEL                                       : EXT4-fs (mmcblk0p4): re-mounted. Opts: (null)
+K 01-01 00:00:08.715 I KERNEL                                       : sicilia-irradiance 1-1.2:1.0: Request firware "dvb-usb-dib0700-1.23.fw"
+K 01-01 00:00:09.278 I KERNEL                                       : wlcore: wl18xx HW: 183x or 180x, PG 2.2 (ROM 0x11)
+K 01-01 00:00:09.355 I KERNEL                                       : wlcore: loaded
+K 01-01 00:00:09.356 I KERNEL                                       : wlcore: driver version: 
+K 01-01 00:00:09.356 I KERNEL                                       : wlcore: compilation time: Wed Nov  7 16:55:49 2018
+K 01-01 00:00:09.377 I KERNEL                                       : usb 1-1.2: Firmware started successfully
+K 01-01 00:00:09.583 I KERNEL                                       : sicilia-irradiance 1-1.2:1.0: Firmware downloaded
+K 01-01 00:00:09.585 I KERNEL                                       : sicilia-irradiance 1-1.2:1.0: Firmware version: 66, 17, 0x10201, 1
+K 01-01 00:00:09.586 I KERNEL                                       : sicilia-irradiance 1-1.2:1.0: TTY registration succeed
+K 01-01 00:00:09.587 I KERNEL                                       : usb 1-1.2: adapter "dib0700_mfd.0.0" (master sda:0,scl:0)
+K 01-01 00:00:09.590 I KERNEL                                       : usb 1-1.2: adapter "dib0700_mfd.2.5" (bit banging sda:2,scl:5)
+K 01-01 00:00:09.598 I KERNEL                                       : usb 1-1.2: adapter "dib0700_mfd.3.5" (bit banging sda:3,scl:5)
+K 01-01 00:00:09.600 I KERNEL                                       : usb 1-1.2: adapter "dib0700_mfd.7.5" (bit banging sda:7,scl:5)
+K 01-01 00:00:09.615 I KERNEL                                       : gpiochip_add: registered GPIOs 264 to 274 on device: dib0700_mfd
+K 01-01 00:00:09.615 I KERNEL                                       : sicilia-irradiance 1-1.2:1.0: GPIO chip registered
+K 01-01 00:00:09.617 D KERNEL                                       : Registered led device: ncp5623c:irradiance:blue
+K 01-01 00:00:09.617 D KERNEL                                       : Registered led device: ncp5623c:irradiance:green
+K 01-01 00:00:09.617 D KERNEL                                       : Registered led device: ncp5623c:irradiance:red
+K 01-01 00:00:09.667 I KERNEL                                       : usbcore: registered new interface driver sicilia-irradiance
+K 01-01 00:00:09.702 E KERNEL                                       : android_usb: already disabled
+K 01-01 00:00:10.772 E KERNEL                                       : android_usb: already disabled
+K 01-01 00:00:10.774 I KERNEL                                       : mtp_bind_config
+K 01-01 00:00:10.776 I KERNEL                                       : rndis_function_bind_config MAC: 00:00:00:00:00:00
+K 01-01 00:00:10.777 W KERNEL                                       :  gadget: using random self ethernet address
+K 01-01 00:00:10.777 W KERNEL                                       :  gadget: using random host ethernet address
+K 01-01 00:00:10.789 I KERNEL                                       : rndis0: MAC a6:86:eb:39:47:f9
+K 01-01 00:00:10.789 I KERNEL                                       : rndis0: HOST MAC 7a:08:d7:47:cb:b9
+K 01-01 00:00:11.125 I KERNEL                                       : ADDRCONF(NETDEV_UP): rndis0: link is not ready
+K 01-01 00:00:11.315 I KERNEL                                       : EXT4-fs (mmcblk0p4): re-mounted. Opts: (null)
+---------------------------------------------------- beginning of /dev/ulog_main
+U 01-01 04:03:06.410 N boxinit     (init-1)                         : process 'ulog_clear', pid 1749 exited
+U 01-01 04:03:07.482 I pomp_comm_s (palermo-1697/MainLoop-1698)     : server_generated_message_handler: received event SICILIA_CTRL_STORAGE_GET_INFO
+U 01-01 04:03:07.483 I pomp_comm_c (civetitf-136/civetitf-206)      : client_generated_message_handler: received event SICILIA_CTRL_STORAGE_GET_INFO
+U 01-01 04:03:07.485 I pomp_comm_c (civetitf-136/civetitf-206)      : client_generated_message_handler: received event SICILIA_CTRL_STORAGE_GET_INFO
+U 01-01 04:03:07.485 I pomp_comm_c (civetitf-136/civetitf-206)      : client_generated_message_handler: received event SICILIA_ERROR
+U 01-01 04:03:07.486 I pomp_comm_s (palermo-1697/MainLoop-1698)     : server_generated_message_handler: received event SICILIA_CTRL_STORAGE_GET_PATH
+U 01-01 04:03:07.486 I pomp_comm_c (civetitf-136/civetitf-206)      : client_generated_message_handler: received event SICILIA_CTRL_STORAGE_GET_PATH
+U 01-01 04:03:07.519 I pomp_comm_c (civetitf-136/civetitf-206)      : client_generated_message_handler: received event SICILIA_CTRL_STORAGE_GET_PATH
+U 01-01 04:03:07.519 I pomp_comm_c (civetitf-136/civetitf-206)      : client_generated_message_handler: received event SICILIA_ERROR
+U 01-01 04:03:07.520 I pomp_comm_s (palermo-1697/MainLoop-1698)     : server_generated_message_handler: received event SICILIA_CTRL_STORAGE_GET_AUTOSELECT
+U 01-01 04:03:07.520 I pomp_comm_c (civetitf-136/civetitf-206)      : client_generated_message_handler: received event SICILIA_CTRL_STORAGE_GET_AUTOSELECT
+U 01-01 04:03:07.559 I pomp_comm_c (civetitf-136/civetitf-206)      : client_generated_message_handler: received event SICILIA_ERROR
+U 01-01 04:03:07.559 I PlfUpdater  (plf_updater-138)                : Event on /proc/mounts, removable will be checked, wait ...
+U 01-01 04:03:12.561 I PlfUpdater  (plf_updater-138)                : Event on /proc/mounts, removable will be checked, wait ...
+U 01-01 04:04:15.215 I pomp_comm_s (palermo-1697/MainLoop-1698)     : server_generated_message_handler: received event SICILIA_CTRL_CAPTURE_START
+U 01-01 04:04:15.220 N boxinit     (init-1)                         : starting 'ulog_session'
+U 01-01 04:04:15.239 I PLRM_imaging(palermo-1697/MainLoop-1698)     : Set media path to '/data/medias/DCIM/0689'
+U 01-01 04:04:15.269 N LIBIMAG_MAIN(palermo-1697/MainLoop-1698)     : Computed random UUID seed FAC66457BA30058451AA0405C97EFDE9 (sequence id 0)
+U 01-01 04:04:15.270 I tlmblackbox (telemetryd-140)                 : setEnabled 0
+U 01-01 04:04:15.275 N PLRM_imaging(palermo-1697/MainLoop-1698)     : ---------------------------------------------
+U 01-01 04:04:15.275 N PLRM_imaging(palermo-1697/MainLoop-1698)     : FW version = v1.7.1
+U 01-01 04:04:15.275 N PLRM_imaging(palermo-1697/MainLoop-1698)     : Camera S/N = PI040378AC7C002880
+U 01-01 04:04:15.275 N PLRM_imaging(palermo-1697/MainLoop-1698)     : Sunshine S/N = PI040379BB7C003051
+U 01-01 04:04:15.275 N PLRM_imaging(palermo-1697/MainLoop-1698)     : FlightUUID = DA40CCBFFFDAFFAED1A15838670115AC
+U 01-01 04:04:15.275 N PLRM_imaging(palermo-1697/MainLoop-1698)     : ---------------------------------------------
+U 01-01 04:04:15.276 I LIBIMAG_FSM (palermo-1697/Img_FSM-1701)      : State Changed: Ready(2) -> SingleShot_Starting(3)
+U 01-01 04:04:15.278 I pomp_comm_c (civetitf-136/civetitf-206)      : client_generated_message_handler: received event SICILIA_ERROR
+U 01-01 04:04:15.330 I tlmblackbox (telemetryd-140)                 : Closing file '/data/medias/DCIM/0685/sequoia_param.dat'
+U 01-01 04:04:15.348 I tlmblackbox (telemetryd-140)                 : setLogDir '/data/medias/DCIM/0689'
+U 01-01 04:04:15.356 I tlmblackbox (telemetryd-140)                 : setEnabled 1
+U 01-01 04:04:15.357 I tlmblackbox (telemetryd-140)                 : rotate logs: '/data/medias/DCIM/0689/sequoia_param.dat.3' -> '/data/medias/DCIM/0689/sequoia_param.dat.4'
+U 01-01 04:04:15.357 I tlmblackbox (telemetryd-140)                 : rotate logs: '/data/medias/DCIM/0689/sequoia_param.dat.2' -> '/data/medias/DCIM/0689/sequoia_param.dat.3'
+U 01-01 04:04:15.357 I tlmblackbox (telemetryd-140)                 : rotate logs: '/data/medias/DCIM/0689/sequoia_param.dat.1' -> '/data/medias/DCIM/0689/sequoia_param.dat.2'
+U 01-01 04:04:15.357 I tlmblackbox (telemetryd-140)                 : rotate logs: '/data/medias/DCIM/0689/sequoia_param.dat' -> '/data/medias/DCIM/0689/sequoia_param.dat.1'
+U 01-01 04:04:15.358 I tlmblackbox (telemetryd-140)                 : Creating file '/data/medias/DCIM/0689/sequoia_param.dat'
+U 01-01 04:04:15.710 I LIBPHOTO_R2R(palermo-1697/Img_FSM-1701)      : R2R: mmap buffer 0: 0x6cad5000
+U 01-01 04:04:15.711 I LIBPHOTO_R2R(palermo-1697/Img_FSM-1701)      : R2R: mmap buffer 1: 0x6b9aa000
+U 01-01 04:04:15.712 I LIBPHOTO_R2R(palermo-1697/Img_FSM-1701)      : R2R: mmap buffer 2: 0x6a87f000
+U 01-01 04:04:15.712 I LIBPHOTO_R2R(palermo-1697/Img_FSM-1701)      : R2R: mmap buffer 3: 0x69754000
+U 01-01 04:04:15.716 I libHAL      (palermo-1697/Img_FSM-1701)      : [HAL_v4l2_utils->HAL_v4l2_utils_open_subdev():674] Found subdev /dev/v4l-subdev0 associated to dev /dev/video0
+U 01-01 04:04:16.284 I libHAL      (palermo-1697/Img_FSM-1701)      : [HAL_v4l2_utils->HAL_v4l2_utils_open_subdev():674] Found subdev /dev/v4l-subdev5 associated to dev /dev/video4
+U 01-01 04:04:16.321 I libHAL      (palermo-1697/Img_FSM-1701)      : [HAL_v4l2_utils->HAL_v4l2_utils_open_subdev():674] Found subdev /dev/v4l-subdev4 associated to dev /dev/video3
+U 01-01 04:04:16.354 I libHAL      (palermo-1697/Img_FSM-1701)      : [HAL_v4l2_utils->HAL_v4l2_utils_open_subdev():674] Found subdev /dev/v4l-subdev3 associated to dev /dev/video2
+U 01-01 04:04:16.390 I libHAL      (palermo-1697/Img_FSM-1701)      : [HAL_v4l2_utils->HAL_v4l2_utils_open_subdev():674] Found subdev /dev/v4l-subdev2 associated to dev /dev/video1
+U 01-01 04:04:16.422 W Mt9m031     (palermo-1697/Img_FSM-1701)      : Auto exposure can only modify exposure time
+U 01-01 04:04:16.422 W Mt9m031     (palermo-1697/Img_FSM-1701)      : Auto exposure can only modify exposure time
+U 01-01 04:04:16.422 W Mt9m031     (palermo-1697/Img_FSM-1701)      : Auto exposure can only modify exposure time
+U 01-01 04:04:16.423 W Mt9m031     (palermo-1697/Img_FSM-1701)      : Auto exposure can only modify exposure time
+U 01-01 04:04:16.423 E Mt9m031     (palermo-1697/Img_FSM-1701)      : Attempt to set unknown analog gain
+U 01-01 04:04:16.423 E Mt9m031     (palermo-1697/Img_FSM-1701)      : Attempt to set unknown analog gain
+U 01-01 04:04:16.423 E Mt9m031     (palermo-1697/Img_FSM-1701)      : Attempt to set unknown analog gain
+U 01-01 04:04:16.423 E Mt9m031     (palermo-1697/Img_FSM-1701)      : Attempt to set unknown analog gain
+U 01-01 04:04:16.426 I LIBCAM_V4L2 (palermo-1697/Img_MainCam-1756)  : Run cam /dev/video0 in multithreaded mode
+U 01-01 04:04:16.437 I pomp_comm_c (mtp-server-257/client_pomp-325) : client_generated_message_handler: received event SICILIA_ASYNC_EVT_CAPTURE_STATUS
+U 01-01 04:04:16.437 I PLRM_server (palermo-1697/Img_FSM-1701)      : New status: 0x00003019
+U 01-01 04:04:16.438 I pomp_comm_c (civetitf-136/client_pomp-203)   : client_generated_message_handler: received event SICILIA_ASYNC_EVT_STATUS
+U 01-01 04:04:16.439 I pomp_comm_c (mtp-server-257/client_pomp-325) : client_generated_message_handler: received event SICILIA_ASYNC_EVT_STATUS
+U 01-01 04:04:16.612 I LIBIMAG_MAIN(palermo-1697/Img_MainCam-1756)  : PhotoSystemInternal::onStart
+U 01-01 04:04:16.612 I LIBIMAG_MAIN(palermo-1697/Img_MainCam-1756)  : PhotoSystemInternal::onStart maincam capture
+U 01-01 04:04:16.614 I IMAGING_P2A (palermo-1697/Img_2A-1758)       : STATS 2A CROP: [ 312, 240]-[3998,2998]
+U 01-01 04:04:16.614 I IMAGING_P2A (palermo-1697/Img_2A-1758)       : 2A INPUT ROI: [ 312, 240]-[3998,2998]
+U 01-01 04:04:16.615 I LIBCAM_ISPP7(palermo-1697/Img_2A-1758)       : *** Warning: stats window defined by driver is not as expected :
+U 01-01 04:04:16.615 I LIBCAM_ISPP7(palermo-1697/Img_2A-1758)       :                     driver  != expected
+U 01-01 04:04:16.615 I LIBCAM_ISPP7(palermo-1697/Img_2A-1758)       :         window_x : {62, 8}    {64, 0}
+U 01-01 04:04:16.615 I LIBCAM_ISPP7(palermo-1697/Img_2A-1758)       :         window_y : {62, 0}    {62, 0}
+K 01-01 00:00:00.132 I KERNEL                                       : EXT4-fs (mmcblk0p4): re-mounted. Opts: (null)
+K 01-01 00:00:03.803 I KERNEL                                       : mtp_open
+K 01-01 00:00:08.480 I KERNEL                                       : wlcore: PHY firmware version: Rev 8.2.0.0.224
+K 01-01 00:00:08.589 I KERNEL                                       : wlcore: firmware booted (Rev 8.9.0.0.31)
+K 01-01 00:00:08.626 I KERNEL                                       : ADDRCONF(NETDEV_UP): wlan0: link is not ready
+K 01-01 00:00:09.934 I KERNEL                                       : wlcore: down
+K 01-01 00:00:09.980 I KERNEL                                       : cfg80211: Calling CRDA to update world regulatory domain
+K 01-01 00:00:11.131 I KERNEL                                       : ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+K 01-01 00:00:21.417 D KERNEL                                       : wlan0: no IPv6 routers present
+K 01-01 00:01:50.049 I KERNEL                                       : Powering on maincam
+K 01-01 00:01:50.176 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 00:01:50.239 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 00:01:50.239 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 00:01:50.239 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 00:01:50.240 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 00:01:51.677 W KERNEL                                       : [sched_delayed] sched: RT throttling activated
+K 01-01 00:01:52.597 I KERNEL                                       : RT Watchdog Timeout: Img_MonoCams[376]
+K 01-01 00:01:56.068 I KERNEL                                       : Powering off maincam
+K 01-01 00:01:57.678 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 00:01:58.177 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+U 01-01 04:04:16.615 I LIBCAM_ISPP7(palermo-1697/Img_2A-1758)       :     Do not overwrite it. 
+U 01-01 04:04:17.284 I LIBIMAG_MAIN(palermo-1697/Img_MonoCams-1751) : PhotoSystemInternal::onStart
+U 01-01 04:04:17.284 I LIBIMAG_MAIN(palermo-1697/Img_MonoCams-1751) : PhotoSystemInternal::onStart monocams capture
+U 01-01 04:04:17.284 I LIBIMAG_FSM (palermo-1697/Img_FSM-1701)      : State Changed: SingleShot_Starting(3) -> SingleShot_WaitingAE(4)
+U 01-01 04:04:17.351 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.007156 seconds
+U 01-01 04:04:17.362 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.007712 seconds
+U 01-01 04:04:17.373 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.008271 seconds
+U 01-01 04:04:17.385 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.009010 seconds
+U 01-01 04:04:17.396 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.007961 seconds
+U 01-01 04:04:17.410 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.009768 seconds
+U 01-01 04:04:17.420 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.007115 seconds
+U 01-01 04:04:17.430 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.007143 seconds
+U 01-01 04:04:17.440 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.006864 seconds
+U 01-01 04:04:17.450 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.007077 seconds
+U 01-01 04:04:17.461 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.008364 seconds
+U 01-01 04:04:17.474 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.008768 seconds
+U 01-01 04:04:17.685 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.007805 seconds
+U 01-01 04:04:17.694 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.006609 seconds
+U 01-01 04:04:17.786 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.008922 seconds
+U 01-01 04:04:17.796 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.007001 seconds
+U 01-01 04:04:17.950 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.006586 seconds
+U 01-01 04:04:17.951 I LIBIMAG_FSM (palermo-1697/Img_FSM-1701)      : TIMED EVENT (ticks=1)
+U 01-01 04:04:17.951 I LIBIMAG_FSM (palermo-1697/Img_FSM-1701)      : State Changed: SingleShot_WaitingAE(4) -> SingleShot_Taking(5)
+U 01-01 04:04:17.953 I pomp_comm_c (mtp-server-257/client_pomp-325) : client_generated_message_handler: received event SICILIA_ASYNC_EVT_CAPTURE_STATUS
+U 01-01 04:04:17.960 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.007226 seconds
+U 01-01 04:04:18.115 I LIBIMAG_FSM (palermo-1697/Img_FSM-1701)      : EX TIMED EVENT #0 (ticks=1)
+U 01-01 04:04:18.219 I LIBIMAG_FSM (palermo-1697/Img_FSM-1701)      : EX TIMED EVENT #2 (ticks=1)
+U 01-01 04:04:18.231 I LIBIMAG_FSM (palermo-1697/Img_FSM-1701)      : EX TIMED EVENT #2 (ticks=1)
+U 01-01 04:04:18.250 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.006600 seconds
+U 01-01 04:04:18.261 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.007744 seconds
+U 01-01 04:04:18.273 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.008619 seconds
+U 01-01 04:04:18.274 I LIBIMAG_FSM (palermo-1697/Img_FSM-1701)      : EX TIMED EVENT #1 (ticks=1)
+U 01-01 04:04:18.275 I LIBIMAG_ISP (palermo-1697/Img_MainCam-1756)  : ISPProcessing::onCaptureDone: seq=0  timestamp=14658.263907  wallclock=1451621049.342072 (/dev/video0 [2]  fps=7.679548)
+U 01-01 04:04:18.284 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.007578 seconds
+U 01-01 04:04:18.284 I LIBCAM_CAP  (palermo-1697/Img_MonoCams-1751) : closest true timestamp realtime 14658.242387, realtime: 1451621049.320215
+U 01-01 04:04:18.284 I PLRM_server (palermo-1697/Img_MonoCams-1751) : event_picture_time_status: 1451621049.320215
+U 01-01 04:04:18.287 I pomp_comm_c (mtp-server-257/client_pomp-325) : client_generated_message_handler: received event SICILIA_ASYNC_EVT_PICTURE_TIME_STATUS
+U 01-01 04:04:18.287 I LIBIMAG_MAIN(palermo-1697/Img_MonoCams-1751) : PhotoSystem::onCaptureDone: seq=0  timestamp=14658.242387  wallclock=1451621049.320527 (/dev/video4 fps=30.013742)
+U 01-01 04:04:18.288 I LIBIMAG_MAIN(palermo-1697/Img_MonoCams-1751) : Frame pushed in workqueue 1, count=1
+U 01-01 04:04:18.288 I LIBIMAG_MAIN(palermo-1697/Img_MonoCams-1751) : PhotoSystem::onCaptureDone: seq=0  timestamp=14658.242387  wallclock=1451621049.330001 (/dev/video3 fps=30.013742)
+U 01-01 04:04:18.288 I LIBIMAG_MAIN(palermo-1697/Img_MonoCams-1751) : Frame pushed in workqueue 1, count=2
+U 01-01 04:04:18.288 I LIBIMAG_MAIN(palermo-1697/Img_MonoCams-1751) : PhotoSystem::onCaptureDone: seq=0  timestamp=14658.242387  wallclock=1451621049.340752 (/dev/video2 fps=30.013742)
+U 01-01 04:04:18.288 I LIBIMAG_MAIN(palermo-1697/Img_MonoCams-1751) : Frame pushed in workqueue 1, count=3
+U 01-01 04:04:18.289 I LIBIMAG_MAIN(palermo-1697/Img_MonoCams-1751) : PhotoSystem::onCaptureDone: seq=0  timestamp=14658.242387  wallclock=1451621049.353314 (/dev/video1 fps=30.013742)
+U 01-01 04:04:18.289 I LIBIMAG_MAIN(palermo-1697/Img_MonoCams-1751) : Frame pushed in workqueue 1, count=4
+U 01-01 04:04:18.336 I LIBIMAG_ISP (palermo-1697/Img_MainCam-1756)  : Image 0 process by ISP in 0.060850s
+U 01-01 04:04:18.336 I LIBIMAG_MAIN(palermo-1697/Img_MainCam-1756)  : PhotoSystem::onCaptureDone: seq=0  timestamp=14658.263907  wallclock=1451621049.342072 (/dev/video0 fps=7.679548)
+U 01-01 04:04:18.336 I LIBIMAG_MAIN(palermo-1697/Img_MainCam-1756)  : Frame pushed in workqueue 2, count=1
+U 01-01 04:04:18.336 I LIBIMAG_MAIN(palermo-1697/Img_MainCam-1756)  : Capture #0 full completed
+U 01-01 04:04:18.339 I pomp_comm_c (mtp-server-257/client_pomp-325) : client_generated_message_handler: received event SICILIA_ASYNC_EVT_CAPTURE_STATUS
+U 01-01 04:04:18.340 I pomp_comm_c (mtp-server-257/client_pomp-325) : client_generated_message_handler: received event SICILIA_ASYNC_EVT_SNAPSHOT
+U 01-01 04:04:18.340 I LIBIMAG_FSM (palermo-1697/Img_FSM-1701)      : State Changed: SingleShot_Taking(5) -> SingleShot_Stopping(6)
+U 01-01 04:04:18.340 I pomp_comm_c (civetitf-136/client_pomp-203)   : client_generated_message_handler: received event SICILIA_ASYNC_EVT_SNAPSHOT
+U 01-01 04:04:18.383 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.006535 seconds
+U 01-01 04:04:18.393 I Mt9m031     (palermo-1697/Img_MonoCams-1751) : downscale processed in 0.007007 seconds
+U 01-01 04:04:18.641 I LIBIMAG_MAIN(palermo-1697/Img_MonoCams-1751) : PhotoSystemInternal::onStop
+U 01-01 04:04:18.741 I LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : PhotoSystem::frame_consumer[1]: timestamp=14658.242387 (/dev/video4) delay=500ms
+U 01-01 04:04:18.741 E PLRM_sensors(palermo-1697/Img_Writer1-1699)  : Failed to get gps data sample before (2)
+U 01-01 04:04:18.741 E PLRM_imaging(palermo-1697/Img_Writer1-1699)  : Failed to get back gps data
+U 01-01 04:04:18.741 I PLRM_imaging(palermo-1697/Img_Writer1-1699)  : Body attitude datas (-3.596191;-2.468704;-103.984039)
+U 01-01 04:04:18.742 N LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : Computed UUID C48513DF0966BDBDC7CF134B4700142A (sequence id 0)
+U 01-01 04:04:18.752 N LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : Wrote /data/medias/DCIM/0689/IMG_160101_040409_0000_NIR.TIF
+U 01-01 04:04:18.752 I LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : TIFF processed in 0.010543 seconds
+U 01-01 04:04:18.752 I PLRM_imaging(palermo-1697/Img_Writer1-1699)  : Photo Record Id = /data/medias/DCIM/0689/IMG_160101_040409_0000_NIR.TIF
+K 01-01 00:02:00.017 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 00:02:00.517 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 00:02:02.357 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 00:02:02.857 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 00:02:04.697 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 00:02:05.197 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 00:02:13.940 I KERNEL                                       : Powering on maincam
+K 01-01 00:02:14.051 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 00:02:14.108 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 00:02:14.108 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 00:02:14.108 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 00:02:14.108 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 00:02:16.292 I KERNEL                                       : Powering off maincam
+K 01-01 00:19:52.088 I KERNEL                                       : Powering on maincam
+K 01-01 00:19:52.202 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 00:19:52.268 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 00:19:52.268 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 00:19:52.268 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 00:19:52.268 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 00:19:54.617 I KERNEL                                       : RT Watchdog Timeout: Img_MonoCams[419]
+K 01-01 00:19:58.098 I KERNEL                                       : Powering off maincam
+K 01-01 00:19:59.697 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 00:20:00.197 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 00:20:02.037 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 00:20:02.537 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 00:20:04.377 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 00:20:04.877 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 00:20:06.717 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 00:20:07.217 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 00:20:11.575 I KERNEL                                       : Powering on maincam
+K 01-01 00:20:11.689 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 00:20:11.752 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 00:20:11.752 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 00:20:11.752 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 00:20:11.752 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 00:20:18.728 I KERNEL                                       : Powering off maincam
+K 01-01 00:52:32.026 I KERNEL                                       : Powering on maincam
+K 01-01 00:52:32.138 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 00:52:32.213 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 00:52:32.213 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 00:52:32.214 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 00:52:32.214 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 00:52:34.398 I KERNEL                                       : Powering off maincam
+K 01-01 00:54:16.333 I KERNEL                                       : Powering on maincam
+K 01-01 00:54:16.449 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 00:54:16.508 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 00:54:16.509 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 00:54:16.509 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 00:54:16.509 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 00:54:18.563 I KERNEL                                       : Powering off maincam
+K 01-01 00:55:27.763 I KERNEL                                       : Powering on maincam
+K 01-01 00:55:27.877 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 00:55:27.939 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 00:55:27.939 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 00:55:27.939 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 00:55:27.939 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 00:55:30.297 I KERNEL                                       : RT Watchdog Timeout: Img_MonoCams[486]
+K 01-01 00:55:33.738 I KERNEL                                       : Powering off maincam
+K 01-01 00:55:35.337 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 00:55:35.837 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 00:55:37.687 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 00:55:38.187 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 00:55:40.027 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 00:55:40.527 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+U 01-01 04:04:18.754 I LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : PhotoSystem::frame_consumer[1]: timestamp=14658.242387 (/dev/video3) delay=514ms
+U 01-01 04:04:18.755 E PLRM_sensors(palermo-1697/Img_Writer1-1699)  : Failed to get gps data sample before (2)
+U 01-01 04:04:18.755 E PLRM_imaging(palermo-1697/Img_Writer1-1699)  : Failed to get back gps data
+U 01-01 04:04:18.755 I PLRM_imaging(palermo-1697/Img_Writer1-1699)  : Body attitude datas (-3.596191;-2.468704;-103.984039)
+U 01-01 04:04:18.755 N LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : Computed UUID C48513DF0966BDBDC7CF134B4700142A (sequence id 0)
+U 01-01 04:04:18.762 I LIBIMAG_MAIN(palermo-1697/Img_Writer2-1700)  : PhotoSystem::frame_consumer[2]: timestamp=14658.263907 (/dev/video0) delay=500ms
+U 01-01 04:04:18.762 E PLRM_sensors(palermo-1697/Img_Writer2-1700)  : Failed to get gps data sample before (2)
+U 01-01 04:04:18.762 E PLRM_imaging(palermo-1697/Img_Writer2-1700)  : Failed to get back gps data
+U 01-01 04:04:18.763 I PLRM_imaging(palermo-1697/Img_Writer2-1700)  : Body attitude datas (-3.596785;-2.453692;-103.987839)
+U 01-01 04:04:18.768 N LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : Wrote /data/medias/DCIM/0689/IMG_160101_040409_0000_REG.TIF
+U 01-01 04:04:18.768 I LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : TIFF processed in 0.012318 seconds
+U 01-01 04:04:18.768 I PLRM_imaging(palermo-1697/Img_Writer1-1699)  : Photo Record Id = /data/medias/DCIM/0689/IMG_160101_040409_0000_REG.TIF
+U 01-01 04:04:18.773 I LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : PhotoSystem::frame_consumer[1]: timestamp=14658.242387 (/dev/video2) delay=532ms
+U 01-01 04:04:18.774 E PLRM_sensors(palermo-1697/Img_Writer1-1699)  : Failed to get gps data sample before (2)
+U 01-01 04:04:18.774 E PLRM_imaging(palermo-1697/Img_Writer1-1699)  : Failed to get back gps data
+U 01-01 04:04:18.781 I PLRM_imaging(palermo-1697/Img_Writer1-1699)  : Body attitude datas (-3.596191;-2.468704;-103.984039)
+U 01-01 04:04:18.782 N LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : Computed UUID C48513DF0966BDBDC7CF134B4700142A (sequence id 0)
+U 01-01 04:04:18.784 I LIBIMAG_MAIN(palermo-1697/Img_MainCam-1756)  : PhotoSystemInternal::onStop
+U 01-01 04:04:18.784 I LIBIMAG_FSM (palermo-1697/Img_FSM-1701)      : State Changed: SingleShot_Stopping(6) -> SingleShot_Stopped(7)
+U 01-01 04:04:18.786 I LIBIMAG_MAIN(palermo-1697/Img_FSM-1701)      : check_capture_ended: not ready: pending=3 remain=1
+U 01-01 04:04:18.786 I LIBIMAG_MAIN(palermo-1697/Img_FSM-1701)      : | id=0 reqcount=5 succeed=5 failed=0 recorded=2
+U 01-01 04:04:18.796 N LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : Wrote /data/medias/DCIM/0689/IMG_160101_040409_0000_RED.TIF
+U 01-01 04:04:18.796 I LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : TIFF processed in 0.013574 seconds
+U 01-01 04:04:18.796 I PLRM_imaging(palermo-1697/Img_Writer1-1699)  : Photo Record Id = /data/medias/DCIM/0689/IMG_160101_040409_0000_RED.TIF
+U 01-01 04:04:18.802 I LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : check_capture_ended: not ready: pending=2 remain=1
+U 01-01 04:04:18.802 I LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : | id=0 reqcount=5 succeed=5 failed=0 recorded=3
+U 01-01 04:04:18.802 I LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : PhotoSystem::frame_consumer[1]: timestamp=14658.242387 (/dev/video1) delay=561ms
+U 01-01 04:04:18.803 E PLRM_sensors(palermo-1697/Img_Writer1-1699)  : Failed to get gps data sample before (2)
+U 01-01 04:04:18.803 E PLRM_imaging(palermo-1697/Img_Writer1-1699)  : Failed to get back gps data
+U 01-01 04:04:18.803 I PLRM_imaging(palermo-1697/Img_Writer1-1699)  : Body attitude datas (-3.596191;-2.468704;-103.984039)
+U 01-01 04:04:18.803 N LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : Computed UUID C48513DF0966BDBDC7CF134B4700142A (sequence id 0)
+U 01-01 04:04:18.815 N LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : Wrote /data/medias/DCIM/0689/IMG_160101_040409_0000_GRE.TIF
+U 01-01 04:04:18.816 I LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : TIFF processed in 0.012101 seconds
+U 01-01 04:04:18.816 I PLRM_imaging(palermo-1697/Img_Writer1-1699)  : Photo Record Id = /data/medias/DCIM/0689/IMG_160101_040409_0000_GRE.TIF
+U 01-01 04:04:18.822 I LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : check_capture_ended: not ready: pending=1 remain=1
+U 01-01 04:04:18.822 I LIBIMAG_MAIN(palermo-1697/Img_Writer1-1699)  : | id=0 reqcount=5 succeed=5 failed=0 recorded=4
+U 01-01 04:04:19.127 I LIBPHOTO_JPG(palermo-1697/Img_Writer2-1700)  : [JPEGCreator::nv12compress] dt3=0.000002s dt4=0.338103s <avg dt3=0.000002s dt4=0.337675s>
+U 01-01 04:04:19.127 I LIBPHOTO_JPG(palermo-1697/Img_Writer2-1700)  : [JPEGCreator] Compression:0.338279s
+U 01-01 04:04:19.141 I LIBPHOTO_JPG(palermo-1697/Img_Writer2-1700)  : [JPEGCreator] Write:0.014041s
+U 01-01 04:04:19.142 N LIBIMAG_MAIN(palermo-1697/Img_Writer2-1700)  : Wrote /data/medias/DCIM/0689/IMG_160101_040409_0000_RGB.JPG
+U 01-01 04:04:19.142 I LIBIMAG_MAIN(palermo-1697/Img_Writer2-1700)  : JPEG processed in 0.360204 seconds
+U 01-01 04:04:19.142 I PLRM_imaging(palermo-1697/Img_Writer2-1700)  : Photo Record Id = /data/medias/DCIM/0689/IMG_160101_040409_0000_RGB.JPG
+U 01-01 04:04:19.144 I LIBIMAG_MAIN(palermo-1697/Img_Writer2-1700)  : Capture #0 completly recorded
+U 01-01 04:04:19.158 I LIBIMAG_MAIN(palermo-1697/Img_Writer2-1700)  : Sync file-system...
+U 01-01 04:04:19.243 I LIBIMAG_MAIN(palermo-1697/Img_Writer2-1700)  : Sync file-system done
+U 01-01 04:04:19.243 I PLRM_imaging(palermo-1697/Img_Writer2-1700)  : onRecordSessionDone
+U 01-01 04:04:19.243 I LIBIMAG_FSM (palermo-1697/Img_FSM-1701)      : State Changed: SingleShot_Stopped(7) -> Ready(2)
+U 01-01 04:04:19.245 I tlmblackbox (telemetryd-140)                 : setEnabled 0
+U 01-01 04:04:19.252 I tlmblackbox (telemetryd-140)                 : Closing file '/data/medias/DCIM/0689/sequoia_param.dat'
+U 01-01 04:04:19.262 I tlmblackbox (telemetryd-140)                 : setLogDir '/data/medias/DCIM/0685'
+U 01-01 04:04:19.273 I tlmblackbox (telemetryd-140)                 : setEnabled 1
+U 01-01 04:04:19.273 I tlmblackbox (telemetryd-140)                 : rotate logs: '/data/medias/DCIM/0685/sequoia_param.dat.3' -> '/data/medias/DCIM/0685/sequoia_param.dat.4'
+U 01-01 04:04:19.273 I tlmblackbox (telemetryd-140)                 : rotate logs: '/data/medias/DCIM/0685/sequoia_param.dat.2' -> '/data/medias/DCIM/0685/sequoia_param.dat.3'
+U 01-01 04:04:19.274 I tlmblackbox (telemetryd-140)                 : rotate logs: '/data/medias/DCIM/0685/sequoia_param.dat.1' -> '/data/medias/DCIM/0685/sequoia_param.dat.2'
+U 01-01 04:04:19.274 W             (mtp-server-257/mtp-server-270)  : [mtp-server][W] MTP_FORMAT_UNDEFINED, /data/medias/DCIM/0685/sequoia_param.dat.4 not added...
+U 01-01 04:04:19.274 I tlmblackbox (telemetryd-140)                 : rotate logs: '/data/medias/DCIM/0685/sequoia_param.dat' -> '/data/medias/DCIM/0685/sequoia_param.dat.1'
+U 01-01 04:04:19.274 W             (mtp-server-257/mtp-server-270)  : [mtp-server][W] MTP_FORMAT_UNDEFINED, /data/medias/DCIM/0685/sequoia_param.dat.3 not added...
+U 01-01 04:04:19.274 I tlmblackbox (telemetryd-140)                 : Creating file '/data/medias/DCIM/0685/sequoia_param.dat'
+U 01-01 04:04:19.275 W             (mtp-server-257/mtp-server-270)  : [mtp-server][W] MTP_FORMAT_UNDEFINED, /data/medias/DCIM/0685/sequoia_param.dat.2 not added...
+U 01-01 04:04:19.276 W             (mtp-server-257/mtp-server-270)  : [mtp-server][W] MTP_FORMAT_UNDEFINED, /data/medias/DCIM/0685/sequoia_param.dat.1 not added...
+U 01-01 04:04:19.344 I PLRM_imaging(palermo-1697/Img_FSM-1701)      : -------------------------------------------------------------------------------------------------------------------------------
+K 01-01 00:55:42.367 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 00:55:42.867 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 00:55:48.298 I KERNEL                                       : Powering on maincam
+K 01-01 00:55:48.414 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 00:55:48.478 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 00:55:48.478 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 00:55:48.478 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 00:55:48.479 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 00:55:50.533 I KERNEL                                       : Powering off maincam
+K 01-01 00:56:59.950 I KERNEL                                       : Powering on maincam
+K 01-01 00:57:00.069 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 00:57:00.129 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 00:57:00.129 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 00:57:00.129 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 00:57:00.129 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 00:57:02.184 I KERNEL                                       : Powering off maincam
+K 01-01 00:58:11.642 I KERNEL                                       : Powering on maincam
+K 01-01 00:58:11.760 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 00:58:11.818 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 00:58:11.818 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 00:58:11.818 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 00:58:11.819 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 00:58:14.003 I KERNEL                                       : Powering off maincam
+K 01-01 00:59:21.997 I KERNEL                                       : Powering on maincam
+K 01-01 00:59:22.110 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 00:59:22.172 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 00:59:22.173 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 00:59:22.173 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 00:59:22.173 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 00:59:24.227 I KERNEL                                       : Powering off maincam
+K 01-01 01:00:32.768 I KERNEL                                       : Powering on maincam
+K 01-01 01:00:32.888 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:00:32.956 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:00:32.956 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:00:32.956 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:00:32.956 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:00:35.011 I KERNEL                                       : Powering off maincam
+K 01-01 01:01:44.415 I KERNEL                                       : Powering on maincam
+K 01-01 01:01:44.529 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:01:44.591 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:01:44.591 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:01:44.591 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:01:44.591 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:01:46.775 I KERNEL                                       : Powering off maincam
+K 01-01 01:02:59.618 I KERNEL                                       : Powering on maincam
+K 01-01 01:02:59.730 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:02:59.799 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:02:59.799 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:02:59.799 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:02:59.799 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:03:01.984 I KERNEL                                       : Powering off maincam
+K 01-01 01:04:25.112 I KERNEL                                       : Powering on maincam
+K 01-01 01:04:25.236 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:04:25.298 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:04:25.298 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:04:25.298 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:04:25.298 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:04:27.483 I KERNEL                                       : Powering off maincam
+K 01-01 01:05:42.526 I KERNEL                                       : Powering on maincam
+K 01-01 01:05:42.642 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:05:42.708 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:05:42.709 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:05:42.709 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:05:42.709 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:05:44.763 I KERNEL                                       : Powering off maincam
+K 01-01 01:06:56.425 I KERNEL                                       : Powering on maincam
+K 01-01 01:06:56.539 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:06:56.609 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:06:56.609 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:06:56.609 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:06:56.609 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:06:58.794 I KERNEL                                       : Powering off maincam
+K 01-01 01:08:09.112 I KERNEL                                       : Powering on maincam
+K 01-01 01:08:09.238 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:08:09.299 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:08:09.299 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:08:09.299 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:08:09.299 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:08:11.757 I KERNEL                                       : RT Watchdog Timeout: Img_MonoCams[622]
+K 01-01 01:08:15.198 I KERNEL                                       : Powering off maincam
+K 01-01 01:08:16.797 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 01:08:17.297 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 01:08:19.137 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 01:08:19.637 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 01:08:21.477 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 01:08:21.977 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 01:08:23.817 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 01:08:24.317 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 01:08:28.817 I KERNEL                                       : Powering on maincam
+K 01-01 01:08:28.930 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:08:28.991 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:08:28.991 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:08:28.991 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:08:28.991 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:08:31.046 I KERNEL                                       : Powering off maincam
+K 01-01 01:09:40.458 I KERNEL                                       : Powering on maincam
+K 01-01 01:09:40.569 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:09:40.629 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:09:40.629 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:09:40.629 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:09:40.629 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:09:42.684 I KERNEL                                       : Powering off maincam
+K 01-01 01:10:52.498 I KERNEL                                       : Powering on maincam
+K 01-01 01:10:52.609 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:10:52.669 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:10:52.670 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:10:52.670 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:10:52.670 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:10:54.724 I KERNEL                                       : Powering off maincam
+K 01-01 01:12:15.396 I KERNEL                                       : Powering on maincam
+K 01-01 01:12:15.510 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:12:15.571 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:12:15.571 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:12:15.571 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:12:15.571 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:12:17.927 I KERNEL                                       : RT Watchdog Timeout: Img_MonoCams[685]
+K 01-01 01:12:21.368 I KERNEL                                       : Powering off maincam
+K 01-01 01:12:22.967 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 01:12:23.467 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 01:12:25.307 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 01:12:25.807 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 01:12:27.647 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 01:12:28.147 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 01:12:29.987 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 01:12:30.487 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 01:12:35.383 I KERNEL                                       : Powering on maincam
+K 01-01 01:12:35.497 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:12:35.567 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:12:35.567 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:12:35.567 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:12:35.567 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:12:37.751 I KERNEL                                       : Powering off maincam
+K 01-01 01:13:59.712 I KERNEL                                       : Powering on maincam
+K 01-01 01:13:59.832 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:13:59.898 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:13:59.898 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:13:59.898 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:13:59.898 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:14:02.083 I KERNEL                                       : Powering off maincam
+K 01-01 01:15:15.069 I KERNEL                                       : Powering on maincam
+K 01-01 01:15:15.182 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:15:15.248 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:15:15.248 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:15:15.248 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:15:15.248 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:15:17.433 I KERNEL                                       : Powering off maincam
+K 01-01 01:16:27.366 I KERNEL                                       : Powering on maincam
+K 01-01 01:16:27.479 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:16:27.539 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:16:27.539 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:16:27.539 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:16:27.539 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:16:29.724 I KERNEL                                       : Powering off maincam
+K 01-01 01:17:40.012 I KERNEL                                       : Powering on maincam
+K 01-01 01:17:40.128 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:17:40.205 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:17:40.205 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:17:40.205 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:17:40.205 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:17:42.390 I KERNEL                                       : Powering off maincam
+K 01-01 01:18:52.718 I KERNEL                                       : Powering on maincam
+K 01-01 01:18:52.831 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:18:52.888 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:18:52.888 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:18:52.888 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:18:52.888 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:18:54.943 I KERNEL                                       : Powering off maincam
+K 01-01 01:20:04.850 I KERNEL                                       : Powering on maincam
+K 01-01 01:20:04.971 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:20:05.038 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:20:05.038 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:20:05.038 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:20:05.038 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:20:07.223 I KERNEL                                       : Powering off maincam
+K 01-01 01:21:17.104 I KERNEL                                       : Powering on maincam
+K 01-01 01:21:17.225 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:21:17.288 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:21:17.288 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:21:17.288 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:21:17.288 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:21:19.473 I KERNEL                                       : Powering off maincam
+K 01-01 01:22:29.563 I KERNEL                                       : Powering on maincam
+K 01-01 01:22:29.679 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:22:29.739 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:22:29.740 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:22:29.740 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:22:29.740 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:22:31.924 I KERNEL                                       : Powering off maincam
+K 01-01 01:23:43.723 I KERNEL                                       : Powering on maincam
+K 01-01 01:23:43.839 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:23:43.898 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:23:43.898 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:23:43.898 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:23:43.898 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:23:46.083 I KERNEL                                       : Powering off maincam
+K 01-01 01:24:56.923 I KERNEL                                       : Powering on maincam
+K 01-01 01:24:57.043 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:24:57.108 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:24:57.108 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:24:57.108 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:24:57.108 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:24:59.293 I KERNEL                                       : Powering off maincam
+K 01-01 01:26:10.736 I KERNEL                                       : Powering on maincam
+K 01-01 01:26:10.852 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:26:10.919 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:26:10.919 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:26:10.919 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:26:10.919 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:26:13.104 I KERNEL                                       : Powering off maincam
+K 01-01 01:27:26.191 I KERNEL                                       : Powering on maincam
+K 01-01 01:27:26.307 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:27:26.371 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:27:26.371 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:27:26.372 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:27:26.372 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:27:28.426 I KERNEL                                       : Powering off maincam
+K 01-01 01:28:41.805 I KERNEL                                       : Powering on maincam
+K 01-01 01:28:41.917 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:28:41.980 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:28:41.980 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:28:41.981 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:28:41.981 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:28:44.165 I KERNEL                                       : Powering off maincam
+K 01-01 01:29:56.886 I KERNEL                                       : Powering on maincam
+K 01-01 01:29:56.999 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:29:57.058 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:29:57.058 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:29:57.059 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:29:57.059 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:29:59.113 I KERNEL                                       : Powering off maincam
+K 01-01 01:31:16.834 I KERNEL                                       : Powering on maincam
+K 01-01 01:31:16.947 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:31:17.010 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:31:17.010 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:31:17.010 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:31:17.010 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:31:19.194 I KERNEL                                       : Powering off maincam
+K 01-01 01:51:49.497 I KERNEL                                       : Powering on maincam
+K 01-01 01:51:49.613 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:51:49.678 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:51:49.678 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:51:49.678 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:51:49.678 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:51:51.863 I KERNEL                                       : Powering off maincam
+K 01-01 01:53:07.180 I KERNEL                                       : Powering on maincam
+K 01-01 01:53:07.299 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:53:07.362 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:53:07.362 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:53:07.362 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:53:07.362 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:53:09.416 I KERNEL                                       : Powering off maincam
+K 01-01 01:54:19.738 I KERNEL                                       : Powering on maincam
+K 01-01 01:54:19.850 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:54:19.908 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:54:19.908 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:54:19.908 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:54:19.909 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:54:22.093 I KERNEL                                       : Powering off maincam
+K 01-01 01:55:33.134 I KERNEL                                       : Powering on maincam
+K 01-01 01:55:33.252 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:55:33.318 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:55:33.318 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:55:33.318 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:55:33.318 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:55:35.503 I KERNEL                                       : Powering off maincam
+K 01-01 01:56:46.652 I KERNEL                                       : Powering on maincam
+K 01-01 01:56:46.768 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:56:46.828 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:56:46.828 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:56:46.828 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:56:46.828 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:56:48.753 I KERNEL                                       : Powering off maincam
+K 01-01 01:58:00.426 I KERNEL                                       : Powering on maincam
+K 01-01 01:58:00.538 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:58:00.599 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:58:00.599 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:58:00.599 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:58:00.599 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:58:02.784 I KERNEL                                       : Powering off maincam
+K 01-01 01:59:14.316 I KERNEL                                       : Powering on maincam
+K 01-01 01:59:14.437 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 01:59:14.498 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 01:59:14.498 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 01:59:14.498 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 01:59:14.498 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 01:59:16.552 I KERNEL                                       : Powering off maincam
+K 01-01 02:00:29.075 I KERNEL                                       : Powering on maincam
+K 01-01 02:00:29.191 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:00:29.248 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:00:29.248 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:00:29.248 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:00:29.248 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:00:31.302 I KERNEL                                       : Powering off maincam
+K 01-01 02:01:46.231 I KERNEL                                       : Powering on maincam
+K 01-01 02:01:46.336 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:01:46.409 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:01:46.409 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:01:46.409 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:01:46.409 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:01:48.594 I KERNEL                                       : Powering off maincam
+K 01-01 02:03:01.059 I KERNEL                                       : Powering on maincam
+K 01-01 02:03:01.168 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:03:01.229 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:03:01.229 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:03:01.229 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:03:01.229 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:03:03.283 I KERNEL                                       : Powering off maincam
+K 01-01 02:04:15.753 I KERNEL                                       : Powering on maincam
+K 01-01 02:04:15.868 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:04:15.928 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:04:15.928 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:04:15.928 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:04:15.928 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:04:17.982 I KERNEL                                       : Powering off maincam
+K 01-01 02:05:30.129 I KERNEL                                       : Powering on maincam
+K 01-01 02:05:30.244 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:05:30.308 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:05:30.308 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:05:30.308 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:05:30.308 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:05:32.493 I KERNEL                                       : Powering off maincam
+K 01-01 02:06:44.432 I KERNEL                                       : Powering on maincam
+K 01-01 02:06:44.548 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:06:44.610 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:06:44.610 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:06:44.610 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:06:44.610 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:06:46.664 I KERNEL                                       : Powering off maincam
+K 01-01 02:08:01.183 I KERNEL                                       : Powering on maincam
+K 01-01 02:08:01.289 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:08:01.351 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:08:01.351 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:08:01.351 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:08:01.351 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:08:03.536 I KERNEL                                       : Powering off maincam
+K 01-01 02:09:15.699 I KERNEL                                       : Powering on maincam
+K 01-01 02:09:15.812 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:09:15.878 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:09:15.878 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:09:15.878 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:09:15.878 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:09:17.933 I KERNEL                                       : Powering off maincam
+K 01-01 02:10:30.412 I KERNEL                                       : Powering on maincam
+K 01-01 02:10:30.526 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:10:30.590 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:10:30.590 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:10:30.590 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:10:30.590 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:10:32.643 I KERNEL                                       : Powering off maincam
+K 01-01 02:11:44.726 I KERNEL                                       : Powering on maincam
+K 01-01 02:11:44.838 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:11:44.898 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:11:44.898 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:11:44.898 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:11:44.898 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:11:47.083 I KERNEL                                       : Powering off maincam
+K 01-01 02:12:58.326 I KERNEL                                       : Powering on maincam
+K 01-01 02:12:58.440 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:12:58.498 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:12:58.498 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:12:58.498 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:12:58.498 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:13:00.683 I KERNEL                                       : Powering off maincam
+K 01-01 02:51:40.074 I KERNEL                                       : Powering on maincam
+K 01-01 02:51:40.192 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:51:40.258 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:51:40.258 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:51:40.258 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:51:40.258 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:51:42.312 I KERNEL                                       : Powering off maincam
+K 01-01 02:52:52.722 I KERNEL                                       : Powering on maincam
+K 01-01 02:52:52.839 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:52:52.899 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:52:52.899 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:52:52.899 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:52:52.899 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:52:54.953 I KERNEL                                       : Powering off maincam
+K 01-01 02:54:10.741 I KERNEL                                       : Powering on maincam
+K 01-01 02:54:10.856 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:54:10.918 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:54:10.918 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:54:10.918 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:54:10.918 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:54:13.103 I KERNEL                                       : Powering off maincam
+K 01-01 02:55:28.656 I KERNEL                                       : Powering on maincam
+K 01-01 02:55:28.769 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:55:28.828 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:55:28.828 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:55:28.828 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:55:28.829 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:55:31.013 I KERNEL                                       : Powering off maincam
+K 01-01 02:56:47.472 I KERNEL                                       : Powering on maincam
+K 01-01 02:56:47.589 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:56:47.649 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:56:47.649 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:56:47.649 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:56:47.649 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:56:49.834 I KERNEL                                       : Powering off maincam
+K 01-01 02:58:00.690 I KERNEL                                       : Powering on maincam
+K 01-01 02:58:00.810 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:58:00.868 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:58:00.868 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:58:00.868 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:58:00.868 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:58:03.053 I KERNEL                                       : Powering off maincam
+K 01-01 02:59:14.044 I KERNEL                                       : Powering on maincam
+K 01-01 02:59:14.158 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 02:59:14.218 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 02:59:14.219 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 02:59:14.219 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 02:59:14.219 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 02:59:16.403 I KERNEL                                       : Powering off maincam
+K 01-01 03:00:28.199 I KERNEL                                       : Powering on maincam
+K 01-01 03:00:28.307 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:00:28.371 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:00:28.371 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:00:28.371 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:00:28.371 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:00:30.817 I KERNEL                                       : RT Watchdog Timeout: Img_MonoCams[1144]
+K 01-01 03:00:34.048 I KERNEL                                       : Powering off maincam
+K 01-01 03:00:35.897 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 03:00:36.397 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 03:00:38.237 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 03:00:38.737 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 03:00:40.577 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 03:00:41.077 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 03:00:42.917 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 03:00:43.417 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 03:00:47.908 I KERNEL                                       : Powering on maincam
+K 01-01 03:00:48.019 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:00:48.077 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:00:48.078 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:00:48.078 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:00:48.078 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:00:50.132 I KERNEL                                       : Powering off maincam
+K 01-01 03:02:01.824 I KERNEL                                       : Powering on maincam
+K 01-01 03:02:01.938 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:02:02.002 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:02:02.002 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:02:02.002 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:02:02.002 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:02:04.057 I KERNEL                                       : Powering off maincam
+K 01-01 03:03:14.336 I KERNEL                                       : Powering on maincam
+K 01-01 03:03:14.447 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:03:14.508 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:03:14.508 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:03:14.509 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:03:14.509 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:03:16.563 I KERNEL                                       : Powering off maincam
+K 01-01 03:04:28.201 I KERNEL                                       : Powering on maincam
+K 01-01 03:04:28.317 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:04:28.380 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:04:28.380 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:04:28.380 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:04:28.380 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:04:30.565 I KERNEL                                       : Powering off maincam
+K 01-01 03:05:41.654 I KERNEL                                       : Powering on maincam
+K 01-01 03:05:41.769 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:05:41.829 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:05:41.829 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:05:41.829 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:05:41.829 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:05:44.014 I KERNEL                                       : Powering off maincam
+K 01-01 03:06:56.246 I KERNEL                                       : Powering on maincam
+K 01-01 03:06:56.358 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:06:56.419 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:06:56.419 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:06:56.419 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:06:56.419 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:06:58.473 I KERNEL                                       : Powering off maincam
+K 01-01 03:08:09.629 I KERNEL                                       : Powering on maincam
+K 01-01 03:08:09.738 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:08:09.800 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:08:09.800 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:08:09.800 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:08:09.800 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:08:11.985 I KERNEL                                       : Powering off maincam
+K 01-01 03:09:22.751 I KERNEL                                       : Powering on maincam
+K 01-01 03:09:22.868 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:09:22.928 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:09:22.928 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:09:22.928 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:09:22.928 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:09:25.287 I KERNEL                                       : RT Watchdog Timeout: Img_MonoCams[1249]
+K 01-01 03:09:28.768 I KERNEL                                       : Powering off maincam
+K 01-01 03:09:30.367 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 03:09:30.867 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 03:09:32.707 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 03:09:33.207 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 03:09:35.047 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 03:09:35.547 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 03:09:37.387 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 03:09:37.887 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 03:09:42.171 I KERNEL                                       : Powering on maincam
+K 01-01 03:09:42.287 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:09:42.352 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:09:42.352 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:09:42.352 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:09:42.352 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:09:44.536 I KERNEL                                       : Powering off maincam
+K 01-01 03:12:02.770 I KERNEL                                       : Powering on maincam
+K 01-01 03:12:02.880 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:12:02.940 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:12:02.940 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:12:02.941 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:12:02.941 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:12:05.125 I KERNEL                                       : Powering off maincam
+K 01-01 03:13:16.041 I KERNEL                                       : Powering on maincam
+K 01-01 03:13:16.158 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:13:16.219 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:13:16.219 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:13:16.219 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:13:16.219 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:13:18.404 I KERNEL                                       : Powering off maincam
+K 01-01 03:14:28.685 I KERNEL                                       : Powering on maincam
+K 01-01 03:14:28.800 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:14:28.858 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:14:28.858 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:14:28.858 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:14:28.858 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:14:31.043 I KERNEL                                       : Powering off maincam
+K 01-01 03:15:42.673 I KERNEL                                       : Powering on maincam
+K 01-01 03:15:42.788 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:15:42.848 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:15:42.848 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:15:42.848 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:15:42.848 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:15:45.033 I KERNEL                                       : Powering off maincam
+K 01-01 03:16:56.390 I KERNEL                                       : Powering on maincam
+K 01-01 03:16:56.505 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:16:56.571 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:16:56.571 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:16:56.571 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:16:56.571 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:16:58.756 I KERNEL                                       : Powering off maincam
+K 01-01 03:18:10.527 I KERNEL                                       : Powering on maincam
+K 01-01 03:18:10.642 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:18:10.709 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:18:10.709 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:18:10.709 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:18:10.709 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:18:12.894 I KERNEL                                       : Powering off maincam
+K 01-01 03:19:22.920 I KERNEL                                       : Powering on maincam
+K 01-01 03:19:23.038 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:19:23.098 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:19:23.098 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:19:23.098 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:19:23.099 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:19:25.153 I KERNEL                                       : Powering off maincam
+K 01-01 03:20:36.630 I KERNEL                                       : Powering on maincam
+K 01-01 03:20:36.748 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:20:36.810 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:20:36.810 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:20:36.810 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:20:36.810 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:20:38.995 I KERNEL                                       : Powering off maincam
+K 01-01 03:21:51.275 I KERNEL                                       : Powering on maincam
+K 01-01 03:21:51.396 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:21:51.458 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:21:51.458 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:21:51.458 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:21:51.458 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:21:53.512 I KERNEL                                       : Powering off maincam
+K 01-01 03:23:05.411 I KERNEL                                       : Powering on maincam
+K 01-01 03:23:05.526 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:23:05.591 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:23:05.591 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:23:05.591 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:23:05.591 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:23:07.937 I KERNEL                                       : RT Watchdog Timeout: Img_MonoCams[1384]
+K 01-01 03:23:11.158 I KERNEL                                       : Powering off maincam
+K 01-01 03:23:13.027 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 03:23:13.527 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 03:23:15.367 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 03:23:15.867 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 03:23:17.707 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 03:23:18.207 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 03:23:20.047 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 03:23:20.547 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 03:23:24.978 I KERNEL                                       : Powering on maincam
+K 01-01 03:23:25.088 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:23:25.151 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:23:25.151 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:23:25.151 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:23:25.152 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:23:27.336 I KERNEL                                       : Powering off maincam
+K 01-01 03:33:00.535 I KERNEL                                       : Powering on maincam
+K 01-01 03:33:00.654 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:33:00.718 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:33:00.718 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:33:00.718 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:33:00.718 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:33:02.773 I KERNEL                                       : Powering off maincam
+K 01-01 03:34:11.661 I KERNEL                                       : Powering on maincam
+K 01-01 03:34:11.779 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:34:11.838 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:34:11.838 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:34:11.838 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:34:11.838 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:34:13.892 I KERNEL                                       : Powering off maincam
+K 01-01 03:35:23.402 I KERNEL                                       : Powering on maincam
+K 01-01 03:35:23.516 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:35:23.580 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:35:23.580 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:35:23.580 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:35:23.580 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:35:25.765 I KERNEL                                       : Powering off maincam
+K 01-01 03:36:36.682 I KERNEL                                       : Powering on maincam
+K 01-01 03:36:36.801 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:36:36.858 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:36:36.858 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:36:36.858 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:36:36.858 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:36:39.043 I KERNEL                                       : Powering off maincam
+K 01-01 03:37:51.366 I KERNEL                                       : Powering on maincam
+K 01-01 03:37:51.477 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:37:51.539 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:37:51.539 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:37:51.539 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:37:51.539 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:37:53.724 I KERNEL                                       : Powering off maincam
+K 01-01 03:39:04.252 I KERNEL                                       : Powering on maincam
+K 01-01 03:39:04.368 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:39:04.429 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:39:04.429 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:39:04.429 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:39:04.429 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:39:06.614 I KERNEL                                       : Powering off maincam
+K 01-01 03:40:17.128 I KERNEL                                       : Powering on maincam
+K 01-01 03:40:17.242 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:40:17.308 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:40:17.308 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:40:17.308 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:40:17.308 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:40:19.493 I KERNEL                                       : Powering off maincam
+K 01-01 03:41:30.153 I KERNEL                                       : Powering on maincam
+K 01-01 03:41:30.268 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:41:30.327 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:41:30.328 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:41:30.328 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:41:30.328 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:41:32.512 I KERNEL                                       : Powering off maincam
+K 01-01 03:42:45.763 I KERNEL                                       : Powering on maincam
+K 01-01 03:42:45.876 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:42:45.939 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:42:45.939 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:42:45.940 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:42:45.940 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:42:47.994 I KERNEL                                       : Powering off maincam
+K 01-01 03:43:59.383 I KERNEL                                       : Powering on maincam
+K 01-01 03:43:59.496 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:43:59.561 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:43:59.561 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:43:59.562 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:43:59.562 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:44:01.616 I KERNEL                                       : Powering off maincam
+K 01-01 03:45:13.246 I KERNEL                                       : Powering on maincam
+K 01-01 03:45:13.355 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:45:13.418 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:45:13.418 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:45:13.418 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:45:13.419 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:45:15.473 I KERNEL                                       : Powering off maincam
+K 01-01 03:46:26.115 I KERNEL                                       : Powering on maincam
+K 01-01 03:46:26.233 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:46:26.298 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:46:26.298 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:46:26.298 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:46:26.298 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:46:28.483 I KERNEL                                       : Powering off maincam
+K 01-01 03:47:38.685 I KERNEL                                       : Powering on maincam
+K 01-01 03:47:38.800 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:47:38.858 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:47:38.858 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:47:38.858 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:47:38.858 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:47:41.217 I KERNEL                                       : RT Watchdog Timeout: Img_MonoCams[1553]
+K 01-01 03:47:44.668 I KERNEL                                       : Powering off maincam
+K 01-01 03:47:46.277 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 03:47:46.777 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 03:47:48.627 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 03:47:49.127 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 03:47:50.967 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 03:47:51.467 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 03:47:53.317 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 03:47:53.817 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 03:47:58.625 I KERNEL                                       : Powering on maincam
+K 01-01 03:47:58.737 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:47:58.800 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:47:58.800 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:47:58.800 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:47:58.800 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:48:00.985 I KERNEL                                       : Powering off maincam
+K 01-01 03:49:11.245 I KERNEL                                       : Powering on maincam
+K 01-01 03:49:11.358 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:49:11.418 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:49:11.419 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:49:11.419 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:49:11.419 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:49:13.603 I KERNEL                                       : Powering off maincam
+K 01-01 03:50:24.172 I KERNEL                                       : Powering on maincam
+K 01-01 03:50:24.279 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:50:24.338 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:50:24.338 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:50:24.339 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:50:24.339 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:50:26.393 I KERNEL                                       : Powering off maincam
+K 01-01 03:51:37.336 I KERNEL                                       : Powering on maincam
+K 01-01 03:51:37.446 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:51:37.508 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:51:37.509 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:51:37.509 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:51:37.509 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:51:39.563 I KERNEL                                       : Powering off maincam
+K 01-01 03:52:50.394 I KERNEL                                       : Powering on maincam
+K 01-01 03:52:50.507 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:52:50.571 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:52:50.571 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:52:50.571 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:52:50.571 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:52:52.756 I KERNEL                                       : Powering off maincam
+K 01-01 03:54:03.152 I KERNEL                                       : Powering on maincam
+K 01-01 03:54:03.273 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:54:03.339 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:54:03.339 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:54:03.339 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:54:03.339 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:54:05.393 I KERNEL                                       : Powering off maincam
+K 01-01 03:55:16.912 I KERNEL                                       : Powering on maincam
+K 01-01 03:55:17.031 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:55:17.089 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:55:17.089 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:55:17.089 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:55:17.089 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:55:19.273 I KERNEL                                       : Powering off maincam
+K 01-01 03:56:30.765 I KERNEL                                       : Powering on maincam
+K 01-01 03:56:30.879 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:56:30.939 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:56:30.939 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:56:30.939 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:56:30.940 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:56:33.124 I KERNEL                                       : Powering off maincam
+K 01-01 03:57:43.811 I KERNEL                                       : Powering on maincam
+K 01-01 03:57:43.927 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:57:43.995 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:57:43.995 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:57:43.995 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:57:43.995 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:57:46.050 I KERNEL                                       : Powering off maincam
+K 01-01 03:58:55.621 I KERNEL                                       : Powering on maincam
+K 01-01 03:58:55.736 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 03:58:55.802 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 03:58:55.802 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 03:58:55.802 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 03:58:55.802 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 03:58:57.987 I KERNEL                                       : Powering off maincam
+K 01-01 04:00:08.772 I KERNEL                                       : Powering on maincam
+K 01-01 04:00:08.886 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 04:00:08.951 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 04:00:08.951 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 04:00:08.951 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 04:00:08.952 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 04:00:11.297 I KERNEL                                       : RT Watchdog Timeout: Img_MonoCams[1688]
+K 01-01 04:00:14.778 I KERNEL                                       : Powering off maincam
+K 01-01 04:00:16.367 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 04:00:16.867 W KERNEL                                       : avicam avicam.2: timeout, dropping frame...
+K 01-01 04:00:18.707 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 04:00:19.207 W KERNEL                                       : avicam avicam.3: timeout, dropping frame...
+K 01-01 04:00:21.047 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 04:00:21.547 W KERNEL                                       : avicam avicam.4: timeout, dropping frame...
+K 01-01 04:00:23.387 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 04:00:23.887 W KERNEL                                       : avicam avicam.5: timeout, dropping frame...
+K 01-01 04:00:28.314 I KERNEL                                       : Powering on maincam
+K 01-01 04:00:28.431 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 04:00:28.488 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 04:00:28.488 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 04:00:28.488 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 04:00:28.488 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 04:00:30.673 I KERNEL                                       : Powering off maincam
+K 01-01 04:01:41.169 I KERNEL                                       : Powering on maincam
+K 01-01 04:01:41.281 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 04:01:41.339 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 04:01:41.339 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 04:01:41.339 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 04:01:41.339 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 04:01:43.524 I KERNEL                                       : Powering off maincam
+K 01-01 04:02:54.317 I KERNEL                                       : Powering on maincam
+K 01-01 04:02:54.431 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 04:02:54.488 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 04:02:54.488 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 04:02:54.489 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 04:02:54.489 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 04:02:56.673 I KERNEL                                       : Powering off maincam
+K 01-01 04:04:07.506 I KERNEL                                       : Powering on maincam
+K 01-01 04:04:07.620 W KERNEL                                       : Could not configure maincam VCM. You probably need a hardware patch
+K 01-01 04:04:07.677 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [eca3: -121]
+K 01-01 04:04:07.678 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [f278: -121]
+K 01-01 04:04:07.678 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [dc51: -121]
+K 01-01 04:04:07.678 E KERNEL                                       : ov16825 2-0036: VCM I2C write failed [0dcc: -121]
+K 01-01 04:04:09.862 I KERNEL                                       : Powering off maincam
