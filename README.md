@@ -4,7 +4,7 @@ In this repository you will find the development of three applications. An appli
 
 ## Sensing application
 
-This application connects by ssh to the embedded system of the phenotyping platform and is responsible for managing the actuators and sensors of the platform to capture morphological and biochemical information on plants.
+This application runs on the embedded system of the phenotyping platform and is responsible for managing the actuators and sensors of the platform to capture morphological and biochemical information on plants.
 
 ## Calibration application
 
