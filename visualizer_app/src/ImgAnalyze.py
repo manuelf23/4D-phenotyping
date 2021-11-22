@@ -227,3 +227,15 @@ class ImgAnalyze():
             my_img_analyze.get_savi(savef=True)
             my_img_analyze.get_msavi(savef=True)
             my_img_analyze.get_ndre(savef=True)
+
+    @staticmethod
+    def generate_RGB_image(calib_path, imgs_folder_path):
+        print(imgs_folder_path)
+        files = glob(f'{imgs_folder_path}/*/')
+        print("calib", calib_path)
+        if len(files) == 0:
+            raise TypeError("Empty images directory")
+        for fname in files:
+            my_img_analyze = ImgAnalyze(fname, f"{calib_path}/")
+            my_img_analyze.get_rgb(savef=True)
+            
