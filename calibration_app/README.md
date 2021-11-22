@@ -77,3 +77,4 @@ A folder with the multispectral images and .csv file with the PCD data at the sa
  The .csv file has the following columns:
  | X | Y | Z | azimuth | laser_id |
 |---|---|---|---------|----------|
+WARNING: For the auto extraction of 2D points it is necesary that the RGB images have a blue or green background.
